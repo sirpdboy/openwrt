@@ -21,7 +21,6 @@ Welcome to sirpdboy's  git source of packages
 **因精力有限不提供任何技术支持和教程等相关问题解答。不保证插件完全无BUG，特此公告！**
 
 ### 恩山链接 ：https://www.right.com.cn/forum/thread-4053752-1-1.html
-------------------------------------------------------
 
 ## 【免责声明】
 **1.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;**
@@ -39,7 +38,6 @@ Welcome to sirpdboy's  git source of packages
 ### https://github.com/sirpdboy/sirpdboy-package (带定时关机源码）
 
 ### 固件说明 [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明-) 
----------------------------------------------------
 
 1、固件上传之前，都是亲自有测试，不排除测试不全面有问题的可能**
 
@@ -117,8 +115,6 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 ## 捐助 [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
 
-------------------------------
-
 **如果你觉得此项目对你有帮助，请捐助我们，以使项目能持续发展，更加完善。··请作者喝杯咖啡~~~**
 
 **你们的支持就是我的动力！**
@@ -127,11 +123,11 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 ## 捐助名单
 
+**loso                 捐助200元
+
+**KK                   捐助600元
+
 ------------------------------
-
-**KK    捐助600元
-
-
 
 ### 捐助方式
 

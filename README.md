@@ -76,8 +76,12 @@ Welcome to sirpdboy's  git source of packages
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
 
 **蓝奏云下载（拒绝百度云）**
+ 
+【蓝奏云下载】链接：https://sipdboy.lanzoui.com/b01cd2agf  密码:ebth
 
-**链接：https://sipdboy.lanzous.com/b01bcwirc  密码：a1s0（回复可见）**
+【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
+
+Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
 **谷歌云下载链接：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-**
 

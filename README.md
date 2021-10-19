@@ -10,7 +10,7 @@ Welcome to sirpdboy's  git source of packages
 ### [sirpdboy  固件分为：大全版，迷你版，旁路由版，养老版等几个版本](https://github.com/sirpdboy/openwrt18.06/)
 
 
-[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明-) [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-) [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-) [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明-) [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)  [![](https://img.shields.io/badge/-版本信息-F5F5F5.svg)](#版本信息-) [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-) [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
 
 ------------------------------------------------------
 
@@ -76,6 +76,15 @@ Welcome to sirpdboy's  git source of packages
 **极致版IP:192.168.8.1  密码空 
 
 ---------------------------------------------------------------------------------------
+
+
+### openwrt 插件版本详细说明 [![](https://img.shields.io/badge/-版本信息-F5F5F5.svg)](#版本信息-)
+
+![xm1](doc/IPV4精简旁路由版插件图.jpg)
+![xm2](doc/IPV4旁路由大全版插件图.jpg)
+![xm3](doc/IPV6大全版插件图.jpg)
+![xm3](doc/IPV6精简版插件图.jpg)
+![xm3](doc/极致精典版.jpg)
 
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
 

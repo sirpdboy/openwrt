@@ -64,12 +64,16 @@ Welcome to sirpdboy's  git source of packages
 **如文件名中：有mini表示精简版本**
 
 **如文件名中：有P表示旁路由版本**
+
+**如文件名中：有JZ表示极致精典版本**
  
 ### openwrt 登陆信息 [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)
 
 ---------------------------------------------------------------------------------------  
 
-**初始管理地址：192.168.1.1       初始管理密码：password**
+**固件IP：192.168.1.1  密码： password或者 密码空
+
+**极致版IP:192.168.8.1  密码空 
 
 ---------------------------------------------------------------------------------------
 
@@ -77,9 +81,15 @@ Welcome to sirpdboy's  git source of packages
 
 **蓝奏云下载（拒绝百度云）**
  
-【蓝奏云下载】链接：https://sipdboy.lanzoui.com/b01cd2agf  密码:ebth
+【极致版下载链接】：https://sipdboy.lanzoui.com/b01cp9w8d密码:3u77
+
+【X86/64 蓝奏云下载】：https://sipdboy.lanzoui.com/b01cd2agf    密码:ebth
+
+【IPV6 DOCKER大全版下载】:https://we.tl/t-my5Yf6fz64
 
 【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
+
+【R2S R4S 蓝奏云下载】https://sipdboy.lanzoui.com/b01cgbjsd   密码:57vx
 
 Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
@@ -93,11 +103,11 @@ Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
 源码来源：https://github.com/sirpdboy/sirpdboy-package
 
-![xm1](doc/登陆页面.jpg)
-
-![xm2](doc/实时监控.jpg)
-
-![xm3](doc/手机画面.jpg)
+![xm1](doc/登陆界面2.jpg)
+![xm2](doc/预览界面.jpg)
+![xm3](doc/高级设置.jpg)
+![xm3](doc/网络共享.jpg)
+![xm3](doc/合并图.jpg)
 
 **感谢LEAN大，感谢Lienol大 等大神分享源码，你可以随意使用其中的源码，但请注明出处。**
 

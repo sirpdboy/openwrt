@@ -166,7 +166,7 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
-## DD刷机教程 ：https://github.com/sirpdboy/openwrt18.06/blob/master/doc/%E3%80%90%E6%8E%A8%E8%8D%90%E3%80%91%E7%94%A8dd%E5%91%BD%E4%BB%A4%E5%86%99%E7%9B%98%E3%80%90%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B%E3%80%91.pdf
+## DD刷机教程 ：![xm3](doc/【推荐】用dd命令写盘【保姆级图文教程】.pdf)
 
 
 ###### [解决 Github 网页上图片显示失败的问题](https://blog.csdn.net/qq_38232598/article/details/91346392)

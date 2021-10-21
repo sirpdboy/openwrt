@@ -86,15 +86,17 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/IPV6精简版插件图.jpg)
 ![xm3](doc/极致精典版.jpg)
 
+##最新更新日期  【2021年10月21日】 （X86 IPV6 docker大全版5.10.74内核 +IPV6 MINI版5.10.74内核 + IPV6极致版5.10.74内核）
+
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
 
 **蓝奏云下载（拒绝百度云）**
  
-【极致版下载链接】：https://sipdboy.lanzoui.com/b01cp9w8d密码:3u77
+【极致版下载链接】：https://sipdboy.lanzoui.com/b01cp9w8d 密码:3u77
 
-【X86/64 蓝奏云下载】：https://sipdboy.lanzoui.com/b01cd2agf    密码:ebth
+【X86/64 蓝奏云下载】：https://sipdboy.lanzoui.com/b01cd2agf 密码:ebth
 
-【IPV6 DOCKER大全版下载】:https://we.tl/t-my5Yf6fz64
+【IPV6 DOCKER大全版下载】:https://we.tl/t-HbcTxUYEVw
 
 【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
 
@@ -102,9 +104,9 @@ Welcome to sirpdboy's  git source of packages
 
 Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
-**谷歌云下载链接：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-**
+**谷歌云下载链接：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-
 
-**加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ**
+**加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
 
 --------------------------------------------------------------
 

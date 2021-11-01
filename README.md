@@ -96,7 +96,7 @@ Welcome to sirpdboy's  git source of packages
 
 【X86/64 蓝奏云下载】：https://sipdboy.lanzoui.com/b01cd2agf 密码:ebth
 
-【IPV6 DOCKER大全版下载】:https://we.tl/t-HbcTxUYEVw
+【IPV6 DOCKER大全版下载】:https://we.tl/t-Sztc2FTxPB
 
 【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
 

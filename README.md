@@ -86,56 +86,56 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/IPV6精简版插件图.jpg)
 ![xm3](doc/极致精典版.jpg)
 
-##最新更新日期 2021-11-10更新：（IPV6 docker大全版5.4.158内核 + IPV6精简版5.4.158内核 + IPV6极致版5.4.158内核）【养老版】
+##2021-11-20更新：（IPV6精简版5.4.158内核 + IPV6极致版5.4.158内核 + 小米AC2100极致版5.4.158内核 ）【养老版】
 
-一.同步更新所有源码和插件到2021年10月9日
+一.同步更新所有源码和插件到2021年10月20日
 
-二.打包了所有网卡驱动和USB网卡驱动,目前镜像包极致版170兆，精简版540兆，极致版980兆。
+二.目前镜像包极致版170兆，精简版540兆，大全版980兆。
 
-三.基本保持上个固件分类和插件数量不变，所有插件同步更新至最新版本，IPV6大全版带DOCKER。
+三.基本保持上个固件分类和插件，大体上不变。
 
-四.更新内容如下：
+四.更新内容如下：【在上个版本的基础上优化更新如下】
 
-1、BYPASS综合OVERWALL和BYPASS稍做优化。
+1、更新升级OPENTOPD1.4.2最新动态壁纸主题，主菜单改回自动收缩功能，修复LAN口修改隐藏菜单BUG，以及优化速度和优化主题图片等。
 
-2、饮料酸原版基础上魔改优化酸酸乳和彩旗HELLOWORLD 相互提示服务已经启动的问题。酸酸乳增加详细服务功能界面。【酸酸乳原版基础上魔改启动检测其它功能未做改变】
+2、为了让固件更稳定清理部分PCI驱动和WIFI驱动保留太多数USB和常用网卡驱动。
 
-3、SMARTDNS删除过多的DNS，优化设置。
+3、PASS-WALL升级到4.43-2最新版本，【如果插件BUG请找插件开发者提交问题】。
 
-4、极致版取消UPNP和vlmcsd激活插件，需要这二个插件或者其他插件安装包的请去TG群共享文件中下载。
+4、所有版本带插件：PASS-WALL,BYPASS[大全版不带]，DNS广告过滤，小猫咪，解锁灰色歌曲，动态DNS，zeroTier,UPNP,时间控制，定时重启设置，网络唤醒，网速限制，网络共享，网络测试，高级设置，文件管理等实用插件。
 
-5、升级PASSWALL到最新版本：4.43-1
+5、修正NAT回流问题
 
-6、优化系统概览信息，增加“已用值”显示。
+6、最大连接数改为165535条。
 
-7、精简版IPV6增加BYPASS取消SAMRTDNS，因为二者有冲突，机器重启导致SMARTDNS不自动启动。
+7、由于EFI包可能某些机器刷机后报F2TS错误，重新加用BIOS专用刷机包。
 
-8、升级OPENTOPD1.4.0最新动态壁纸主题。
+8、原生支持IPV6设置，基本不需要设置就可以完美使用IPV6。
 
-9、考虑某些人IPK安装需要，加回文件传输插件。
+9、所有版本取消vlmcsd激活插件，需要这个的请去TG群共享文件中下载。
 
-10、刷机只用EFI通用包即可，自动识别二种引导模式。
+10、优化系统概览信息，增加“已用值”显示。
 
 11、采纳TG机友反馈，增加下载系统包MD5信息文件及版本说明。
+
+五.目前版本都有刷机测试，插件都能正常启用，力求完善少BUG，很多插件都是本人修复优化插件，具体功能请自行测试。
+
+六.如果出国了可能导致插件失效：如统计流量、限速和时间控制等
+
+七.如果是老版本升级建议全新刷机升级。
 
 
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
 
 **蓝奏云下载（拒绝百度云）**
  
-【极致版下载链接】：https://sipdboy.lanzoui.com/b01cp9w8d 密码:3u77
-
-【X86/64 蓝奏云下载】：https://sipdboy.lanzoui.com/b01cd2agf 密码:ebth
-
-【IPV6 DOCKER大全版下载】[5天有效期]:https://we.tl/t-HRnw5aXlpF
+【123云盘下载链接】：链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
 
 【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
 
-【R2S R4S 蓝奏云下载】https://sipdboy.lanzoui.com/b01cgbjsd   密码:57vx
-
-Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
-
 **谷歌云下载链接：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-
+
+**Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
 **加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
 

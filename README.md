@@ -86,9 +86,9 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/IPV6精简版插件图.jpg)
 ![xm3](doc/极致精典版.jpg)
 
-##2021-11-20更新：（IPV6精简版5.4.158内核 + IPV6极致版5.4.158内核 + 小米AC2100极致版5.4.158内核 ）【养老版】
+## 2021-12-1更新：（IPV6大全版5.4.162内核【无DOCKER】 + IPV6精简版5.4.162内核【带DOCKER】 + IPV6极致版5.4.162内核）
 
-一.同步更新所有源码和插件到2021年10月20日
+一.同步更新所有源码和插件到2021年12月1日
 
 二.目前镜像包极致版170兆，精简版540兆，大全版980兆。
 
@@ -96,27 +96,13 @@ Welcome to sirpdboy's  git source of packages
 
 四.更新内容如下：【在上个版本的基础上优化更新如下】
 
-1、更新升级OPENTOPD1.4.2最新动态壁纸主题，主菜单改回自动收缩功能，修复LAN口修改隐藏菜单BUG，以及优化速度和优化主题图片等。
+1、更新升级OPENTOPD1.4.3最新动态壁纸主题，修复多个选择项目箭头都向下的BUG问题。
 
-2、为了让固件更稳定清理部分PCI驱动和WIFI驱动保留太多数USB和常用网卡驱动。
+2、为了让固件更稳定清理部分PCI驱动和WIFI驱动保留大多数USB和常用网卡驱动，大全版带所有所以驱动。
 
-3、PASS-WALL升级到4.43-2最新版本，【如果插件BUG请找插件开发者提交问题】。
+3、饮料升级到184-9最新版本，【如果插件BUG请找插件开发者提交问题】。
 
-4、所有版本带插件：PASS-WALL,BYPASS[大全版不带]，DNS广告过滤，小猫咪，解锁灰色歌曲，动态DNS，zeroTier,UPNP,时间控制，定时重启设置，网络唤醒，网速限制，网络共享，网络测试，高级设置，文件管理等实用插件。
-
-5、修正NAT回流问题
-
-6、最大连接数改为165535条。
-
-7、由于EFI包可能某些机器刷机后报F2TS错误，重新加用BIOS专用刷机包。
-
-8、原生支持IPV6设置，基本不需要设置就可以完美使用IPV6。
-
-9、所有版本取消vlmcsd激活插件，需要这个的请去TG群共享文件中下载。
-
-10、优化系统概览信息，增加“已用值”显示。
-
-11、采纳TG机友反馈，增加下载系统包MD5信息文件及版本说明。
+4、应某些TG群友建议此次更新大全版 【不集成DOCKER】，精简版 【集成DOCKER】。给需要的小伙伴们一个新的选择可能。
 
 五.目前版本都有刷机测试，插件都能正常启用，力求完善少BUG，很多插件都是本人修复优化插件，具体功能请自行测试。
 
@@ -124,16 +110,17 @@ Welcome to sirpdboy's  git source of packages
 
 七.如果是老版本升级建议全新刷机升级。
 
-
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
 
 **蓝奏云下载（拒绝百度云）**
  
-【123云盘下载链接】：链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
+【123云盘最新版本下载】链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
 
-【蓝奏云 历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
+【123网盘新历史版本下载】链接:https://www.123pan.com/s/dS5A-Yy4qd 提取码:RKht
 
-**谷歌云下载链接：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-
+【蓝奏云老历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
+
+【谷歌云老历史版本下载链接】：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-
 
 **Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 

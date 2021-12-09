@@ -86,7 +86,7 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/IPV6精简版插件图.jpg)
 ![xm3](doc/极致精典版.jpg)
 
-## 2021-12-9更新：（IPV6大全版5.4.162内核【带DOCKER】 + IPV6精简版5.4.162内核 + IPV6极致版5.4.162内核）
+## 2021-12-9更新：（IPV6大全版5.4.162内核【带DOCKER】 + IPV6精简版5.4.162内核 + IPV6极致版5.4.162内核 + R2S常规版5.4.162内核  +  R4s常规版5.4.162内核）
 
 一.同步更新所有源码和插件到2021年12月9日
 
@@ -98,7 +98,7 @@ Welcome to sirpdboy's  git source of packages
 
 1、重新整理优化插件。
 
-2、加入大全版和精简版加入“文件传输”插件。
+2、大全版和精简版加入“文件传输”插件。
 
 3、修复SMABA4网络共享开机后自动挂ROOT路径问题，完美跑满带宽。
 

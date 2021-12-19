@@ -86,7 +86,7 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/IPV6精简版插件图.jpg)
 ![xm3](doc/极致精典版.jpg)
 
-## 2021-12-9更新：（IPV6大全版5.4.162内核【带DOCKER】 + IPV6精简版5.4.162内核 + IPV6极致版5.10.87内核 ）
+## 2021-12-9更新：（IPV6大全版5.4.162内核【带DOCKER】 + IPV6精简版5.4.162内核 + IPV6极致版5.10.87内核 ）[养老版]
 
 一.同步更新所有源码和插件到2021年12月9日
 

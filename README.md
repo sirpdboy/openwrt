@@ -164,6 +164,12 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 ## 捐助名单
 
+***斌                  捐助10元
+
+**C*o                  捐助20元
+
+***洗                  捐助30元
+
 **p*k                  捐助50元
 
 **KK                   捐助600元

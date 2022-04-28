@@ -157,7 +157,7 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 |     <img src="https://img.shields.io/badge/-支付宝-F5F5F5.svg" href="#赞助支持本项目-" height="25" alt="图飞了😂"/>  |  <img src="https://img.shields.io/badge/-微信-F5F5F5.svg" height="25" alt="图飞了😂" href="#赞助支持本项目-"/>  | 
 | :-----------------: | :-------------: |
-|![xm1](doc/微信.jpg) | ![xm1](doc/支付宝.jpg) |
+|![xm1](doc/支付宝.jpg) | ![xm1](doc/微信.jpg) |
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>

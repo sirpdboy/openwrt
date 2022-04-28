@@ -1,7 +1,5 @@
-[![若部分图片无法正常显示，请挂上机场浏览或点这里到末尾看修复教程](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)](#解决-github-网页上图片显示失败的问题) [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
-<a href="#readme">
-    <img src="https://img.vim-cn.com/69/df015dc73fc71da07c3264766e8032ac042fed.png" alt="图飞了😂" title="opentopd" align="right" height="180" />
-</a>
+[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
+
 
 欢迎来到sirpdboy的源码仓库！
 =
@@ -85,13 +83,7 @@ Welcome to sirpdboy's  git source of packages
 
 **蓝奏云下载（拒绝百度云）**
  
-【123云盘最新版本下载】链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
-
-【123网盘新历史版本下载】链接:https://www.123pan.com/s/dS5A-Yy4qd 提取码:RKht
-
-【蓝奏云老历史版本下载链接】：https://sipdboy.lanzoui.com/b01bjtbjg    密码:bcxz
-
-【谷歌云老历史版本下载链接】：https://drive.google.com/drive/folders/1hslY_Pbdy-R-EAEVRMuaZvxUx_jOfje-
+【123云盘下载】链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
 
 **Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
@@ -165,7 +157,7 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 |     <img src="https://img.shields.io/badge/-支付宝-F5F5F5.svg" href="#赞助支持本项目-" height="25" alt="图飞了😂"/>  |  <img src="https://img.shields.io/badge/-微信-F5F5F5.svg" height="25" alt="图飞了😂" href="#赞助支持本项目-"/>  | 
 | :-----------------: | :-------------: |
-|<img src="https://img.vim-cn.com/fd/8e2793362ac3510094961b04407beec569b2b4.png" width="150" height="150" alt="图飞了😂" href="#赞助支持本项目-"/>|<img src="https://img.vim-cn.com/c7/675730a88accebf37a97d9e84e33529322b6e9.png" width="150" height="150" alt="图飞了😂" href="#赞助支持本项目-"/>|
+|![xm1](doc/微信.jpg) | ![xm1](doc/支付宝.jpg) |
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
@@ -174,7 +166,6 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 ## DD刷机教程 ：![点击阅读](doc/【推荐】用dd命令写盘【保姆级图文教程】.pdf)
 
 
-###### [解决 Github 网页上图片显示失败的问题](https://blog.csdn.net/qq_38232598/article/details/91346392)
 
 [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 

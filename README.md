@@ -182,6 +182,7 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/高级设置.jpg)
 ![xm3](doc/网络共享.jpg)
 ![xm3](doc/合并图.jpg)
+![xm3](doc/向导.jpg)
 
 **感谢LEAN大，感谢Lienol大 等大神分享源码，你可以随意使用其中的源码，但请注明出处。**
 

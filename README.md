@@ -75,6 +75,24 @@ Welcome to sirpdboy's  git source of packages
 
 **2022年3月20日【统一固件IP】：192.168.8.1  密码无 
 
+
+---------------------------------------------------------------------------------------
+
+2022-8-22更新：【sirpdboy独家优化】     （IPV6大全版  5.15.60 内核【带DOCKER】 + IPV6精简版  5.15.60 内核  + IPV6极致版  5.15.60 内核  】  【养老版】
+
+
+1.更新bypass修复更新地址库慢、修复GFW模式TG无法使用问题，优化日志显示等。
+
+2.更新ACC加速默认Shortcut-FE内核，取消NAT1和ACC加速，需要使用的自行打勾使用。
+
+3.更新主题opentopd和adgron,彻底修复个别插件点击后收缩问题。
+
+4.更新AdGuardHome过滤链接库，解决不能正常启用的问题。
+
+5.更新 应用过滤5.0，支持旁路由。
+
+6.修复目前已知所有问题，具体功能效果自行测试。 
+
 ---------------------------------------------------------------------------------------
 
 2022-7-15更新：【sirpdboy独家优化】     （IPV6大全版  5.15.54 内核【带DOCKER】 + IPV6精简版  5.15.54 内核  + IPV6极致版 5.15.54 内核  】
@@ -165,7 +183,7 @@ Welcome to sirpdboy's  git source of packages
 
 ### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
  
-##【123云盘下载】链接:https://www.123pan.com/s/dS5A-By4qd 提取码:SeY7
+##【123云盘下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
 
 **Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 

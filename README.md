@@ -230,6 +230,7 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 ## 赞助名单
 
+***人                  赞助100元
 
 **j*g                  赞助200元
 

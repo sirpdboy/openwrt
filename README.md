@@ -240,7 +240,7 @@ Welcome to sirpdboy's  git source of packages
 
 网络速度测试 ：https://github.com/sirpdboy/NetSpeedTest
 
-定时关机重启 : https://github.com/sirpdboy/luci-app-autotimeset
+定时设置插件 : https://github.com/sirpdboy/luci-app-autotimeset
 
 关机功能插件 : https://github.com/sirpdboy/luci-app-poweroffdevice
 
@@ -252,6 +252,8 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
 
+ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
+
 ## 捐助 [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
 
 **如果你觉得此项目对你有帮助，请捐助我们，以使项目能持续发展，更加完善。··请作者喝杯咖啡~~~**
@@ -262,6 +264,7 @@ btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
 
 ## 赞助名单
 
+***Li                  赞助66元
 
 ***风                  赞助100元
 

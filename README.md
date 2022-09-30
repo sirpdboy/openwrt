@@ -8,18 +8,15 @@ Welcome to sirpdboy's  git source of packages
 ### 使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！
 <!-- TOC -->
 
-[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明) [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)  [![](https://img.shields.io/badge/-更新记录-F5F5F5.svg)](#更新记录-) [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-) [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+  - [![](https://img.shields.io/badge/-目录:-696969.svg)](#readme)
+  - [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明)
+  - [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)  
+  - [![](https://img.shields.io/badge/-更新记录-F5F5F5.svg)](#更新记录-) 
+  - [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
+  - [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
 
 <!-- /TOC -->
 
-
-- [ddns-go](#ddns-go)
-  - [特性](#特性)
-  - [使用方法](#使用方法)
-  - [说明](#说明)
-  - [界面](#界面)
-  - [捐助](#捐助)
-  - 
 ------------------------------------------------------
 请 **认真阅读完毕** 本页面，本页面包含注意事项和如何使用。
 **本固件只在恩山论坛免费发布，未经许可，严禁私自扩散，严禁在淘某宝上出售本固件！！**

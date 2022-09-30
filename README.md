@@ -16,6 +16,7 @@ Welcome to sirpdboy's  git source of packages
   - [固件下载](#固件下载)
   - [固件界面](#固件界面)
   - [源码来源](#源码来源)
+  - [刷机教程](#刷机教程)
   - [捐助](#捐助) 
 
 <!-- /TOC -->
@@ -271,9 +272,9 @@ Welcome to sirpdboy's  git source of packages
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+## 刷机教程
+
 ## DD刷机教程 ：![点击阅读](doc/【推荐】用dd命令写盘【保姆级图文教程】.pdf)
-
-
 
 [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 

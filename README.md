@@ -8,12 +8,15 @@ Welcome to sirpdboy's  git source of packages
 ### 使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！
 <!-- TOC -->
 
-  - [![](https://img.shields.io/badge/-目录:-696969.svg)](#readme)
-  - [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明)
-  - [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)  
-  - [![](https://img.shields.io/badge/-更新记录-F5F5F5.svg)](#更新记录-) 
-  - [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
-  - [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+  - [目录](#readme)
+  - [免责声明](#免责声明)
+  - [文件说明](#文件说明)
+  - [登陆密码](#登陆密码)  
+  - [更新记录](#更新记录) 
+  - [固件下载](#固件下载)
+  - [固件界面](#固件界面)
+  - [源码来源](#源码来源)
+  - [捐助](#捐助) 
 
 <!-- /TOC -->
 
@@ -24,17 +27,12 @@ Welcome to sirpdboy's  git source of packages
 
 ### 恩山链接 ：https://www.right.com.cn/forum/thread-4053752-1-1.html
 
-## 【免责声明】
+## 免责声明
+
 - 1.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;**
 - 2.本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任;**
 - 3.本人不保证固件的普适性，不保证无bug，不保证绝对的安全稳定。**
 ----------------------------------------------------
-***本固件基于lean大佬的源码编译，外加一些额外的软件包，主要使用源码如下：***
-### https://github.com/coolsnowwolf/lede
-### https://github.com/sirpdboy/sirpdboy-package (带定时关机源码）
-----------------------------------------------------
-
-## 固件说明 [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明)
 
 - 1、固件上传之前，都是亲自有测试，不排除测试不全面有问题的可能**
 - 2、本固件本人保证没加入任何后门**
@@ -42,7 +40,8 @@ Welcome to sirpdboy's  git source of packages
 - 4、因为固件是在线编译，”IMG写盘工具“支持不太好，提示错误不影响正常使用，可直接压缩包升级或者用网盘中命令行刷机工具**
 - 5、不管什么问题请先自己学习研究再寻求帮助，群里的人没有义务来帮你以及回复一些无聊与无知的问题，需要帮助的可以去某**
 
-### 补充说明：
+## 文件说明
+
 --------------------------------------------------------------
 - 文件下载请看日期文件名内容下载;
 - 如文件名中：20200514表示是编译时间是2020年5月14日;
@@ -53,16 +52,15 @@ Welcome to sirpdboy's  git source of packages
 - 本固件基于lean大佬的源码编译。在此感谢所有无私奉献源码的大佬们！
 ---------------------------------------------------------------------------------------
  
-## openwrt 登陆信息  [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)
+## 登陆密码
 
 - 2022年3月20日之前【固件IP】：192.168.1.1  密码： password或者 密码空
 - 2022年3月20日【统一固件IP】：192.168.8.1  密码无 
 ---------------------------------------------------------------------------------------
 
-## openwrt 更新记录  [![](https://img.shields.io/badge/-更新记录-F5F5F5.svg)](#更新记录-)
+## 更新记录
 
 ---------------------------------------------------------------------------------------
-
 ## 20220926--庆国庆【带应用商店】【带dokcer】精典ipv4-mini 5.4.203内核【旁路由尝鲜版】下载： https://we.tl/t-g1lBS0Cbwc 【三天有效期】
 - 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
 - 更新内容如下：【在上个版本的基础上优化更新如下】
@@ -149,18 +147,16 @@ Welcome to sirpdboy's  git source of packages
 - 9.增加Tailscale依赖。【TG群内测群友推荐】
 - 10.PASSwall升级最新版本。
 - 11.所有版本集成群主自用版bypass和增加smartdns，修复已知问题。【源码来自OVERWALL】
-
 --------------------------------------------------------------------------------------
 
-## 固件下载地址： [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
+## 固件下载
 
 -【123云盘下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
 - Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 - 加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
-
 --------------------------------------------------------------
-## 说明 [![](https://img.shields.io/badge/-说明-F5F5F5.svg)](#说明-)
-## 源码来源：https://github.com/sirpdboy/sirpdboy-package
+
+## 固件界面
 
 ![xm1](doc/登陆界面2.jpg)
 ![xm2](doc/预览界面.jpg)
@@ -169,7 +165,15 @@ Welcome to sirpdboy's  git source of packages
 ![xm3](doc/合并图.jpg)
 ![xm3](doc/向导.jpg)
 
+
+## 源码来源
+
+***本固件基于lean大佬的源码编译，外加一些额外的软件包，主要使用源码如下：***
+### https://github.com/coolsnowwolf/lede
+### https://github.com/sirpdboy/sirpdboy-package (sirpdboy插件源码仓库）
+
 **感谢LEAN大，感谢Lienol大 等大神分享源码，你可以随意使用其中的源码，但请注明出处。**
+
 # My other project
 - 网络速度测试 ：https://github.com/sirpdboy/NetSpeedTest
 - 定时设置插件 : https://github.com/sirpdboy/luci-app-autotimeset
@@ -180,7 +184,7 @@ Welcome to sirpdboy's  git source of packages
 - 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
 - ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
 
-## 捐助  [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+## 捐助
 
 **如果你觉得此项目对你有帮助，请捐助我们，以使项目能持续发展，更加完善。··请作者喝杯咖啡~~~**
 

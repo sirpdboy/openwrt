@@ -22,20 +22,24 @@ Welcome to sirpdboy's  git source of packages
 
 ------------------------------------------------------
 请 **认真阅读完毕** 本页面，本页面包含注意事项和如何使用。
-**本固件只在恩山论坛免费发布，未经许可，严禁私自扩散，严禁在淘某宝上出售本固件！！**
-**因精力有限不提供任何技术支持和教程等相关问题解答。不保证插件完全无BUG，特此公告！**
+
 
 ### 恩山链接2020年 ：https://www.right.com.cn/forum/thread-4013563-1-1.html
 ### 恩山链接2021年 ：https://www.right.com.cn/forum/thread-4053752-1-1.html
 ### 恩山链接2022年（最新） ：https://www.right.com.cn/forum/thread-8250453-1-1.html
 
 ## 免责声明
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 - 1.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;**
 - 2.本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任;**
 - 3.本人不保证固件的普适性，不保证无bug，不保证绝对的安全稳定。**
 ----------------------------------------------------
 
+## 本固件只在恩山论坛免费发布，未经许可，严禁私自扩散，严禁在淘某宝上出售本固件！ 
+## 因精力有限不提供任何技术支持和教程等相关问题解答。不保证插件完全无BUG，特此公告！ 
+ 
 - 1、固件上传之前，都是亲自有测试，不排除测试不全面有问题的可能**
 - 2、本固件本人保证没加入任何后门**
 - 3、强烈建议不保留配置刷入本固件，可以减少很多问题，如果此前是刷的本人固件可以同版本保留配置升级**
@@ -43,7 +47,9 @@ Welcome to sirpdboy's  git source of packages
 - 5、不管什么问题请先自己学习研究再寻求帮助，群里的人没有义务来帮你以及回复一些无聊与无知的问题，需要帮助的可以去某**
 
 ## 文件说明
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 --------------------------------------------------------------
 - 文件下载请看日期文件名内容下载;
 - 如文件名中：20200514表示是编译时间是2020年5月14日;
@@ -55,13 +61,17 @@ Welcome to sirpdboy's  git source of packages
 ---------------------------------------------------------------------------------------
  
 ## 登陆密码
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 - 2022年3月20日之前【固件IP】：192.168.1.1  密码： password或者 密码空
 - 2022年3月20日【统一固件IP】：192.168.8.1  密码无 
 ---------------------------------------------------------------------------------------
 
 ## 更新记录
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 ---------------------------------------------------------------------------------------
 ## 20220926--庆国庆【带应用商店】【带dokcer】精典ipv4-mini 5.4.203内核【旁路由尝鲜版】下载： https://we.tl/t-g1lBS0Cbwc 【三天有效期】
 - 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
@@ -152,14 +162,18 @@ Welcome to sirpdboy's  git source of packages
 --------------------------------------------------------------------------------------
 
 ## 固件下载
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 -【123云盘下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
 - Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 - 加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
 --------------------------------------------------------------
 
 ## 固件界面
-
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 ![xm1](doc/登陆界面2.jpg)
 ![xm2](doc/预览界面.jpg)
 ![xm3](doc/高级设置.jpg)

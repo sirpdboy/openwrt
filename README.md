@@ -7,7 +7,7 @@ Welcome to sirpdboy's  git source of packages
 ### [sirpdboy  固件分为：大全版，迷你版，旁路由版，养老版等几个版本](https://github.com/sirpdboy/openwrt18.06/)
 ### 使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！
 
-[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明-) [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)  [![](https://img.shields.io/badge/-版本信息-F5F5F5.svg)](#版本信息-) [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-) [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明) [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息)  [![](https://img.shields.io/badge/-更新记录-F5F5F5.svg)](#更新记录) [![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载) [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助) 
 
 ------------------------------------------------------
 请 **认真阅读完毕** 本页面，本页面包含注意事项和如何使用。
@@ -26,7 +26,7 @@ Welcome to sirpdboy's  git source of packages
 ### https://github.com/sirpdboy/sirpdboy-package (带定时关机源码）
 
 ----------------------------------------------------
-### 固件说明 [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明-) 
+### 固件说明 [![](https://img.shields.io/badge/-固件说明-F5F5F5.svg)](#固件说明) 
 - 1、固件上传之前，都是亲自有测试，不排除测试不全面有问题的可能**
 - 2、本固件本人保证没加入任何后门**
 - 3、强烈建议不保留配置刷入本固件，可以减少很多问题，如果此前是刷的本人固件可以同版本保留配置升级**
@@ -43,11 +43,15 @@ Welcome to sirpdboy's  git source of packages
 - 如文件名中：有R2S表示R2S机器使用版本
 - 本固件基于lean大佬的源码编译。在此感谢所有无私奉献源码的大佬们！
  
-### openwrt 登陆信息 [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息-)
+### openwrt 登陆信息 [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#登陆信息)
 ---------------------------------------------------------------------------------------  
 - 2022年3月20日之前【固件IP】：192.168.1.1  密码： password或者 密码空
 - 2022年3月20日【统一固件IP】：192.168.8.1  密码无 
 ---------------------------------------------------------------------------------------
+
+## openwrt 更新记录 [![](https://img.shields.io/badge/-登陆信息-F5F5F5.svg)](#更新记录)
+---------------------------------------------------------------------------------------
+
 ## 20220926--庆国庆【带应用商店】【带dokcer】精典ipv4-mini 5.4.203内核【旁路由尝鲜版】下载： https://we.tl/t-g1lBS0Cbwc 【三天有效期】
 - 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
 - 更新内容如下：【在上个版本的基础上优化更新如下】
@@ -136,7 +140,7 @@ Welcome to sirpdboy's  git source of packages
 - 11.所有版本集成群主自用版bypass和增加smartdns，修复已知问题。【源码来自OVERWALL】
 
 --------------------------------------------------------------------------------------
-### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载-)
+### 固件下载地址：[![](https://img.shields.io/badge/-固件下载-F5F5F5.svg)](#固件下载)
  -【123云盘下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
 - Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 - 加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
@@ -163,7 +167,7 @@ Welcome to sirpdboy's  git source of packages
 - 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
 - ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
 
-## 捐助 [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助-) 
+## 捐助 [![](https://img.shields.io/badge/-捐助-F5F5F5.svg)](#捐助) 
 
 **如果你觉得此项目对你有帮助，请捐助我们，以使项目能持续发展，更加完善。··请作者喝杯咖啡~~~**
 

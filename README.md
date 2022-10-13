@@ -4,7 +4,7 @@
 =
 Welcome to sirpdboy's  git source of packages
 -
-### [sirpdboy  固件分为：大全版，精典版，旁路由版，极致版，养老版等几个版本](https://github.com/sirpdboy/openwrt18.06/)
+### [sirpdboy  X86固件分为：大全版，精典版，旁路由版，极致版，养老版等，其它如R2S、N1、小米硬路由机器等都是精典版，需要更多服务请定制！](https://github.com/sirpdboy/openwrt18.06/)
 ### 使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！
 <!-- TOC -->
 

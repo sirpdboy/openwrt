@@ -86,6 +86,31 @@ Welcome to sirpdboy's  git source of packages
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+## 2022-10-13更新【sirpdboy独家优化】 （IPV6大全版 5.15.72 内核【带DOCKER】 + IPV6精简版 5.15.72 内核 + IPV6极致版 5.15.72 内核  + R2S精简版  + R4S精简版 )
+- 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】修复WAN口绑定成WAN和LAN导致冲突问题。
+- 2.【sirpdboy独家研发】升级DDNS-GO动态域名插件4.1.0版,可同页面设置。支持IPV6，支持：阿里,腾讯云,Cloudflare,华为,Callback,百度,porkbun, GoDaddy等.【极致版无】
+- 3.【sirpdboy独家优化】升级upnp，加入外网接口和内网地址二个参数，并且自动设置。
+- 4.大全版加回上版本遗失的插件，同时还增加部分INTEL驱动和插件。
+- 5.R2S，R4S应TG群网友反应加回helloworld插件。
+- 6.修复目前已知所有问题，具体功能效果自行测试。
+
+## 2022-10-01更新【sirpdboy独家优化】 （IPV6大全版 5.15.70 内核【带DOCKER】 + IPV6精简版 5.15.70 内核 + IPV6极致版 5.15.70 内核  + R2S精简版  + R4S精简版 )
+- 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】更新首页概览，解决PVE的lxc概览显示不全和部分机器网络接口错误问题,概览增加在线用户列表。
+- 2.升级samba4 增加禁用启用功能。
+- 3.彻底解决 NTFS移动硬盘不自动挂载以及NTFS分区挂载后只读的问题。
+- 4.【sirpdboy独家研发】增加DDNS-GO动态域名插件。支持IPV6，支持：阿里,腾讯云,Cloudflare,华为,Callback,百度,porkbun, GoDaddy等.【极致版无】
+- 5.更新流量统计，修复统计时偶尔负载过高的问题.
+- 6.修复 <网络检测> 插件 断线重拨 无效问题.
+- 7.修复 <定时设置> 插件 重新拨号 无效问题.
+- 8.【sirpdboy独家研发】增加cups打印机共享插件，修复不能停止服务和无法更改端口等问题。【极致版无】
+- 9.ACC网络加速用"软件流量分载"，取消容易导致不稳定或重启的"SHORTCUT_FE_CM" 【极致版无】
+- 9.增加 IPV4旁路由5.4.203内核带DOCKER带应用商店版本。
+- 0.修复目前已知所有问题，具体功能效果自行测试。
+
 ## 20220926--庆国庆【带应用商店】【带dokcer】精典ipv4-mini 5.4.203内核【旁路由尝鲜版】下载： https://we.tl/t-g1lBS0Cbwc 【三天有效期】
 - 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
 - 更新内容如下：【在上个版本的基础上优化更新如下】

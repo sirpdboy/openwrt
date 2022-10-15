@@ -1,9 +1,7 @@
 ### 访问数：[![](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)] [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
-欢迎来到sirpdboy的源码仓库！
-=
-Welcome to sirpdboy's  git source of packages
--
+![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
+
 ### [sirpdboy  X86固件分为：大全版，精典版，旁路由版，极致版，养老版等，其它如R2S、N1、小米硬路由机器等都是精典版，需要更多服务请定制！](https://github.com/sirpdboy/openwrt18.06/)
 ### 使用本固件前，请严格遵守国家互联网使用相关法律规定,不要违反国家法律规定！
 <!-- TOC -->
@@ -34,6 +32,8 @@ Welcome to sirpdboy's  git source of packages
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
+
+![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明2.jpg)
 
 - 1.仅限完全行为能力人使用本固件，使用本固件即视为使用者的自愿行为;**
 - 2.本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任;**
@@ -243,9 +243,7 @@ Welcome to sirpdboy's  git source of packages
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
-**如果你觉得此项目对你有帮助，请捐助我们，以使项目能持续发展，更加完善。··请作者喝杯咖啡~~~**
-
-**你们的支持就是我的动力！**
+![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明3.jpg)
 
 
 ## 赞助名单

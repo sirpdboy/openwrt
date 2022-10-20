@@ -86,6 +86,21 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+2022-10-20更新：【sirpdboy独家优化】   （精简VIP贵宾版5.15.74 内核/docker/应用商店 + 精简MINI版无docker无应用商店/5.15.74 内核 + 红米RM2100 极致5.10内核 breed和pbboot版）
+- 关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】升级网络测试2.0版，增加内网测试WEB版，更新IPFER3服务实时更新，宽带速度测试详细报告等。
+- 2.【sirpdboy独家研发】增加大吉插件，集成：动态域名ddns-go服务, socat端口映射，FRP内网穿透功能。 【VIP版带】
+- 3.【sirpdboy独家研发】增加ddns-go动态域名插件，更好用的动态域名工具支持IPV4和IPV6。 
+- 4.【sirpdboy独家优化】升级netdata插件，可以控制服务和端口了,再也不怕取消服务还强占内存问题。
+- 5.更新DOCKER图标到主菜单【VIP版带】
+- 6.修复单网卡情况导致LAN口配置信息丢失不能登陆后台问题。
+- 7.精简版增加CUPS打印服务器插件，ddns-go动态域名插件和netdata插件.
+- 8.红米RM2100亲测稳定好用，可直接breed刷机和pbboot刷机升级，简单方便高效零风险。
+- 9.修复目前已知所有问题，具体功能效果自行测试。
+
+##附注意说明：感谢大家长期以来的支持与厚爱，之所以推一个VIP版，是因为疫情原因群主目前进入待业阶段，目前准备全力备战学习、研究、开发软路由等相关业务，发布VIP有爱发电也是希望借此能贴补一下家用（有爱的好伙伴请备注联系本人进VIP群）。望体谅与支持！
+
 ## 2022-10-13更新【sirpdboy独家优化】 （IPV6大全版 5.15.72 内核【带DOCKER】 + IPV6精简版 5.15.72 内核 + IPV6极致版 5.15.72 内核  + R2S精简版  + R4S精简版 )
 - 关注本群固件分享频道：https://t.me/+SlEXzw184rm8FcYF 【查看所有历史更新记录】
 - 更新内容如下：【在上个版本的基础上优化更新如下】
@@ -197,7 +212,9 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
--【123云盘下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
+-【123云盘工具下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
+-【123云盘固件下载】链接: https://www.123pan.com/s/dS5A-nJxqd    提取码:nxFY
+
 - Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 - 加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
 

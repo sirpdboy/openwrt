@@ -106,6 +106,36 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+2022-12-16 X86更新5个版本：【sirpdboy独家优化】   （
+普通精简MINI版5.15.83/无应用商店/无docker + VIP大全PLUS版5.15.83/应用商店/docker + VIP精简MINI版5.4.203/应用商店/docker + VIP极致SUPER版5.10.134/应用商店/docker + VIP旁路由BYPASS版5.10.134/应用商店/无docker ）
+
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+
+- 1.【sirpdboy独家优化】升级ddns-go动态域名 到V4.3.3版
+- 2.【sirpdboy独家优化】升级lucky 大吉1.74版，解决内存占用过高问题。
+- 3.【sirpdboy独家优化】S酸乳+升级最新chinadns-ng
+- 4.【sirpdboy独家优化】负载均衡mwan3 采用2.10.13版本，需自行配置。
+- 5.【sirpdboy独家优化】家长控制升级，解决不指定MAC地址，限制不生效的问题。
+- 6.【sirpdboy独家优化】应用过滤升级5.0.2版本，采用V2.0数据库格式，增加国内国外区域规则指定。
+- 7.【sirpdboy独家优化】VIP极致和VIP旁路采用immortalwrt版本5.10内核.VIP精简采用immortalwrt版本5.4.203内核。其它采用lean版本5.15.83内核。
+- 8.【sirpdboy独家优化】重新加回 arpbind，ARP绑定插件。VIP极致版将passwall改为passwall2.
+- 9.【sirpdboy独家优化】优化bypass插件。解决偶尔无法上网问题。具体效果请大家测试告之 。
+
+## 附注意说明：感谢大家长期以来的支持与厚爱，之所以推一个VIP版，是因为疫情原因群主目前进入待业阶段，目前准备全力备战学习、研究、开发软路由等相关业务，发布VIP有爱发电也是希望借此能贴补一下家用（有爱的好伙伴请备注联系本人进VIP群）。望体谅与支持！
+
+2022-12-8更新5个版本：【sirpdboy独家优化】   （2022-12-8 X86更新5个版本：【sirpdboy独家优化】   （
+普通极致SUPER版5.15.80/无应用商店/无docker +普通精简MINI版5.15.80/无应用商店/无docker  +VIP精简MINI版5.4.203/应用商店/docker +VIP极致SUPER版5.4.203/应用商店/无docker +VIP旁路由BYPASS版5.4.203/应用商店/无docker ）
+
+- 关注：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
+
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家优化】更新分区扩容插件，修复保留配置无效问题.
+- 2.【sirpdboy独家优化】所有版本加回bypass插件。
+-  3.【sirpdboy独家优化】更新预览脚本，增加AMD的温度显示，内存按G来表示。可识别虚拟网卡。
+- 4.【sirpdboy独家优化】删除IPK安装签名可以软件包中更新大多数的插件。
+- 5.【sirpdboy独家优化】修正nat回流问题。
+
+
 2022-11-11更新：【sirpdboy独家优化】   （普通精简MINI版5.15.77/无应用商店/无docker + VIP大全PLUS版5.15.77/应用商店/docker + VIP精简MINI版5.15.77/应用商店/docker + VIP极致SUPER版5.15.77/应用商店/docker + VIP旁路由BYPASS版5.15.77/应用商店/无docker + VIP精简MINI版 R2S/R4S5.15.77/应用商店/docker）【庆双11特别版】
 
 - 刷机说明：
@@ -124,7 +154,6 @@
 - 7.红米RM2100亲测稳定好用，可直接breed刷机和pbboot刷机升级，简单方便高效零风险。
 - 8.修复目前已知所有问题，具体功能效果自行测试。
 
-## 附注意说明：感谢大家长期以来的支持与厚爱，之所以推一个VIP版，是因为疫情原因群主目前进入待业阶段，目前准备全力备战学习、研究、开发软路由等相关业务，发布VIP有爱发电也是希望借此能贴补一下家用（有爱的好伙伴请备注联系本人进VIP群）。望体谅与支持！
 
 2022-11-1更新：【sirpdboy独家优化】   （VIP大全版5.15.76 内核/docker/应用商店 + VIP精简版5.15.76 内核/应用商店/docker + VIP旁路由5.15.76 内核/应用商店/无docker + 大全版5.15.76 内核/无docker/无应用商店+ 精简版5.15.76 内核/无docker/无应用商店 + 极致版/5.15.76 内核/无docker/无应用商店 +VIP区：R2S\R4S\小米R2100）
 

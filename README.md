@@ -1,5 +1,11 @@
 ### 访问数：[![](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)] [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
+
+### 【本群推荐机场】 cherry新机场
+- 本群专用注册链接：https://chyvpn.cyou/auth/register?code=Jy47
+
+- 请尽量按月购买。杜绝跑路风险。非营利机场尽量做到什么都是最好的，奈飞，4K，游戏线路。就是这样，机场跑路无法控制，只能控制自己的手，如果你按年付也无问题，请在使用一段时间有充分信任之后再决定。
+
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 
 ### [sirpdboy  X86固件分为：大全版，精典版，旁路由版，极致版，养老版等，其它如R2S、N1、小米硬路由机器等都是精典版，需要更多服务请定制！](https://github.com/sirpdboy/openwrt18.06/)
@@ -105,6 +111,25 @@
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
+
+- 2023-2-1 更新8个版本：【sirpdboy独家优化】   （
+- 普通大全Plus版5.15.90/无应用商店/docker   +
+- 普通精简MINI版5.15.90/无应用商店/无docker   +
+- 普通极致Super版5.15.90/无应用商店/无docker   +
+- VIP大全PLUS版5.15.90/应用商店/docker + 
+- VIP精简MINI版5.15.90/应用商店/docker + 
+- VIP极致SUPER版5.10.134/应用商店/docker + 
+- VIP旁路BYPASS版5.10.134/应用商店/无docker + 
+- R2S/R4S VIP精简MINI版5.15.90/应用商店/docker）
+
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家优化】升级：定时设置1.8版，修改设置语法兼容之前设置方法，增加月份菜单和定时检测断网重连功能。
+- 2.【sirpdboy独家优化】MWAN3负载均衡由统一使用2.8.8版本。
+- 3.【sirpdboy独家优化】DDNS-GO升级到4.4.2版本。
+- 4.【sirpdboy独家优化】VIP极致和VIP旁路采用immortalwrt版本5.10.134内核，集成KPR去广告。
+- 5.【sirpdboy独家优化】升级高级设置1.21，增加定时设置配置和家长控制设置选项（方便直接复制备份配置文件）。
+- 6.【sirpdboy独家优化】修复旁路由版本CUPS打印服务已经启动，但不能访问后台问题。
+- 7.修复完善已知的所有问题，具体细节请自行测试。
 
 2023-1-13  更新6个版本：【sirpdboy独家优化】   （普通精简MINI版5.15.86/无应用商店/无docker + VIP大全PLUS版5.15.86/应用商店/docker + VIP精简MINI版5.15.86/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + R2S/R4S VIP精简MINI版5.15.86/应用商店/无docker）
 

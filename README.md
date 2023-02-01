@@ -1,7 +1,7 @@
 ### 访问数：[![](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)] [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
 
-### 【本群推荐机场】 cherry新机场
+### 【本群推荐机场】 cherry link
 - 本群专用注册链接：https://chyvpn.cyou/auth/register?code=Jy47
 
 - 请尽量按月购买。杜绝跑路风险。非营利机场尽量做到什么都是最好的，奈飞，4K，游戏线路。就是这样，机场跑路无法控制，只能控制自己的手，如果你按年付也无问题，请在使用一段时间有充分信任之后再决定。

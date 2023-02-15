@@ -112,10 +112,7 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
-- 2023-2-15 更新8个版本：【sirpdboy独家优化】   （
-- 普通精简mini版5.15.93/无应用商店/无docker   + 
-- 普通极致super版5.15.93/无应用商店/无docker   + 
-- VIP版6个版本更新5.15.93+5.4.203 /应用商店/docker ）
+2023-2-15 更新8个版本：【sirpdboy独家优化】   （普通精简mini版5.15.93/无应用商店/无docker   +普通极致super版5.15.93/无应用商店/无docker   + VIP版6个版本更新5.15.93+5.4.203 /应用商店/docker ）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
 
@@ -129,7 +126,7 @@
 
 ------
 
-- 2023-2-1 更新8个版本：【sirpdboy独家优化】   （
+2023-2-1 更新8个版本：【sirpdboy独家优化】   （
 - 普通大全Plus版5.15.90/无应用商店/docker   +
 - 普通精简MINI版5.15.90/无应用商店/无docker   +
 - 普通极致Super版5.15.90/无应用商店/无docker   +

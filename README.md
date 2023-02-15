@@ -112,6 +112,23 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+- 2023-2-15 更新8个版本：【sirpdboy独家优化】   （
+- 普通精简mini版5.15.93/无应用商店/无docker   + 
+- 普通极致super版5.15.93/无应用商店/无docker   + 
+- VIP版6个版本更新5.15.93+5.4.203 /应用商店/docker ）
+
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+
+- 1.【sirpdboy独家优化】修复 定时任务 使用定时清理垃圾导致主题信息文件丢失BUG。
+- 2.【sirpdboy独家优化】升级opentopd主题适应istore和优化主题菜单颜色和菜单条方案。
+- 3.【sirpdboy独家优化】VIP极致和VIP旁路采用immortalwrt版本5.4.203内核，集成KPR去广告。
+- 4.【sirpdboy独家优化】此版VIP极致版集成docker。
+- 5.【sirpdboy独家优化】修复上个版本Edge主题无法使用问题。
+- 6.【sirpdboy独家优化】istore、小猫等其他插件同步更新至最新版本。
+- 7.修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
+------
+
 - 2023-2-1 更新8个版本：【sirpdboy独家优化】   （
 - 普通大全Plus版5.15.90/无应用商店/docker   +
 - 普通精简MINI版5.15.90/无应用商店/无docker   +

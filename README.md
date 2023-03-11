@@ -113,6 +113,26 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+## 2023年3月11日 更新5个版本固件[内核5.15.98] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。   【养老版】
+
+- 【sirpdboy独家优化】   （普通极致SUPER版5.15.98/无应用商店/无docker   +VIP 四个【养老版本】版本 ）
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】升级kucat酷猫主题1.2.3版，修复CLASH背景色导致字体看不清问题.修复暗色模式监控等背景色为白色问题。【注意】使用主题卡顿清除浏览器缓存即可。
+- 2.【sirpdboy独家优化】修改首页预览IPV6拨号获取显示不正常问题。
+- 3.【sirpdboy独家研发】升级 设置向导 ，修复使用IPV6模式偶尔卡住问题。
+- 4.【sirpdboy独家研发】升级 定时设置1.9.1版 插件，加入定时检测WMAN3负载均衡是否失效，失效自动重启服务，加入日志提示，所有操作记录日志可查看最近200条。【MWAN3负载均衡福音】
+- 5.【sirpdboy独家研发】控制台菜单，3号菜单恢复默认主题中加入修复向导功能，之前老版本升级过来出现/etc/config/wizard的可以用它修复。
+- 6.取消任务coremark自动运行，此任务后台运行会占用大量CPU，导致卡机等。
+- 7.【sirpdboy独家优化】TG群友反馈adguardhome使用重定向53端口替换dnsmasq重启后adguardhome不自动启动的问题，经一晚上仔细研究测试，最终锁定问题为配置问题，新版本已经解决此问题，但请注意：不要保留配置升级。
+- 8.【sirpdboy独家优化】修复umdns日志错误问题。
+- 9.修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
+------ 
+
+## 【附注】个别朋友提出插件BUG或者修改功能完善等问题，这里统一说明一下：插件有问题修改和完善都不是一朝一夕马上可以解决，需要非常耐心和需要非常多的时间用来了解插件功能、使用方法、观察代码流程、测试查找问题原因、然后根据需要的结果去想出可以实现的方案，然后修改代码、编译测试，对于经验丰富的人来说可能都要反复多次，而对于一般人来说基本就找不到问题更不用说想出解决方法了。即算是大神时间和精力也有限，如果不是很重要的插件，用的人不太多的插件，也不会理会，因为只是维护自己的插件和自己比较关注的插件就已经很费神了。。。请多给这些为开源代码维护的大神们一些支持和理解，因为，修复别人的代码比修复自己开发的代码要困难得多，因此，对于大家的个别诉求，一要看能力上能不能解决，二要看有没有必要解决，三要看是否安排得过来。。。如果需要加急的还是请定制吧。
+
+------ 
+
 ## 庆祝3.8女神节，特地大更新，祝天下所有女士节日快乐！
 
 2023年3月8日 更新11个版本固件[内核5.15.98] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。
@@ -414,13 +434,13 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
--【123云盘工具下载】链接: https://www.123pan.com/s/dS5A-Hoxqd   提取码:MwhD
+- 【123网盘工具下载】： https://www.123pan.com/s/dS5A-6qxqd.html  提取码: qnm4
 
--【123云盘固件下载】链接: https://www.123pan.com/s/dS5A-nJxqd 提取码:nxFY
+- 【123云盘固件下载】链接: https://www.123pan.com/s/dS5A-nJxqd 提取码:nxFY
 
-- Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
+-  Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
-- 加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
+-  加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
 
 ## 固件界面
 
@@ -465,10 +485,12 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 - 定时设置插件 : https://github.com/sirpdboy/luci-app-autotimeset
 - 关机功能插件 : https://github.com/sirpdboy/luci-app-poweroffdevice
 - opentopd主题 : https://github.com/sirpdboy/luci-theme-opentopd
-- opentoks 主题: https://github.com/sirpdboy/luci-theme-opentoks [仿KOOLSAHRE主题]
-- btmob 主题: https://github.com/sirpdboy/luci-theme-btmob
+- 酷猫kucat主题 : https://github.com/sirpdboy/luci-theme-kucat
+- 进阶设置（酷猫主题设置） : https://github.com/sirpdboy/luci-theme-advancedplus
+- 大吉lucky : https://github.com/sirpdboy/luci-theme-lucky
 - 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
 - ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
+- 家长控制: https://github.com/sirpdboy/luci-app-parentcontrol
 
 ## 捐助
 

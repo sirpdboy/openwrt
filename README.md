@@ -113,6 +113,15 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+## 2023年4月1日 更新9个版本固件[内核5.15.104] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。 【sirpdboy独家优化】   （普通大全PLUS版5.15.104/无应用商店/无docker   +普通精简MINI版5.15.104/无应用商店/无docker   +普通极致super版5.15.104/无应用商店/无docker   +VIP大全PLUS版5.15.104/应用商店/docker + VIP精简MINI版5.15.104/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + R2S VIP精简版5.15.104/应用商店/docker+R4S  VIP精简版5.15.104/应用商店/docker+ ）
+
+- 更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家优化】升级LUCKY1.9.1版。
+- 2.【sirpdboy独家优化】升级 DDNS-GO5.0.4版。
+- 3.【应TG群友建议】修复mosdns V5启动无效问题。
+- 4.升级最新mosdns V5版本。
+- 5.修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
 ## 2023年3月11日 更新5个版本固件[内核5.15.98] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。   【养老版】
 
 - 【sirpdboy独家优化】   （普通极致SUPER版5.15.98/无应用商店/无docker   +VIP 四个【养老版本】版本 ）

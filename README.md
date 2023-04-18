@@ -487,32 +487,50 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 ### https://github.com/coolsnowwolf/lede
 ### https://github.com/sirpdboy/sirpdboy-package (sirpdboy插件源码仓库）
 
-**感谢LEAN大，感谢Lienol大 等大神分享源码，你可以随意使用其中的源码，但请注明出处。**
+
+
+## 使用与授权相关说明
+ 
+- 本人开源的所有源码，任何引用需注明本处出处，如需修改二次发布必告之本人，未经许可不得做于任何商用用途。
+
 
 # My other project
+
 - 网络速度测试 ：https://github.com/sirpdboy/NetSpeedTest
+
 - 定时设置插件 : https://github.com/sirpdboy/luci-app-autotimeset
+
 - 关机功能插件 : https://github.com/sirpdboy/luci-app-poweroffdevice
+
 - opentopd主题 : https://github.com/sirpdboy/luci-theme-opentopd
-- 酷猫kucat主题 : https://github.com/sirpdboy/luci-theme-kucat
-- 进阶设置（酷猫主题设置） : https://github.com/sirpdboy/luci-theme-advancedplus
-- 大吉lucky : https://github.com/sirpdboy/luci-theme-lucky
+
+- kucat 主题: https://github.com/sirpdboy/luci-theme-kucat
+
+- 家长控制: https://github.com/sirpdboy/luci-theme-parentcontrol
+
 - 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
+
 - ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
-- 家长控制: https://github.com/sirpdboy/luci-app-parentcontrol
+
+- 进阶设置（系统高级设置+主题设置kucat/agron/opentopd）: https://github.com/sirpdboy/luci-app-advancedplus
+
+- 设置向导: https://github.com/sirpdboy/luci-app-wizard
+
+- 分区扩容: https://github.com/sirpdboy/luci-app-partexp
+
+- lukcy大吉: https://github.com/sirpdboy/luci-app-lukcy
 
 ## 捐助
 
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
-</a>
-
-![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明3.jpg)
+![screenshots](doc/说明3.jpg)
 
 |     <img src="https://img.shields.io/badge/-支付宝-F5F5F5.svg" href="#赞助支持本项目-" height="25" alt="图飞了😂"/>  |  <img src="https://img.shields.io/badge/-微信-F5F5F5.svg" height="25" alt="图飞了😂" href="#赞助支持本项目-"/>  | 
 | :-----------------: | :-------------: |
 |![xm1](doc/支付宝.png) | ![xm1](doc/微信.png) |
 
+<a href="#readme">
+    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
+</a>
 
 ## 赞助名单
 
@@ -551,10 +569,6 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 **KK                   赞助600元
 
 **潮                   赞助50元
-
-
-## 捐助
-
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>

@@ -1,4 +1,5 @@
-### 访问数：[![](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)] [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
+## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
+## 访问数：[![](https://visitor-badge.glitch.me/badge?page_id=sirpdboy-visitor-badge)] [![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
 ###  【关于固件BUG说明】固件内核和依赖不断更新升级，编译也是不断纠错和进步之中，新固件会有新插件、也会加入新功能、也许会有新问题，但总之要相信，代码的升级，总是解决前面的问题才会更新，一切都是在朝前进，有问题慢慢来，别急，总有解决方法 。也许本人不是最会处理BUG的编译者，也不是能解决所有BUG的大神，但肯定是最用心来编译固件的编译者。因为每一次更新编译，本人都会不断尝试与改进，加入新功能解决旧问题，方便使用和好用的固件一直是本人编译固件的崇旨。在感谢所有支持本人的好伙伴们！只是本人就不明白为什么 在恩山论坛上有人故意抹黑说：加入VIP群说有BUG就被踢了，此事纯属造谣，在VIP群的所有发电爱好者都可以为本人做证，到目前VIP群还没有踢过人，群众的眼睛是雪亮的，固件好不好用，用不用心编译大家也可以从我发布的固件中体会出来。清者自清！本人问心无愧！！
 
@@ -112,6 +113,29 @@
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
+
+2023年5月13日 最新更新-庆生版：庆祝sirpdboy今天手术后顺利出院。因曾经常醉酒（酒精肝）+经常不吃早饭+夜猫子，导致胆结石，在此告戒大家：按时三餐吃早饭、按时作息不熬夜、注意饮食少醉酒！不要等失去了才后悔莫及！【另外发现一个非常有效的减肥方法：就是去医院打一针全身麻醉，然后只打留置针（葡萄糖等）不吃饭，经本人血泪教训得出的经验：每天瘦一斤以上。】
+
+【重要通知】之前正在开发OPENWRT专用chatgpt-web版本，因为住院原因，只能推迟发布，等稍好点，测试好了后，将第一时间发布！ 
+
+关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
+- 【sirpdboy独家优化】   （普通大全lus版5.15.110/无应用商店/docker   +普通精典Mini版5.15.110/无应用商店/无docker   +普通极致Super版5.15.110/无应用商店/无docker   +
+- VIP大全PLUS版6.1.26/应用商店/docker + VIP精典MINI版6.1.26/应用商店/docker + VIP极致SUPER版5.10.134/应用商店/docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker +
+- VIP R2S 版5.4/应用商店/docker +VIP R4S 版5.4/应用商店/docker +VIP R4SE 版5.4/应用商店/docker + 【应TG群友需要新加】）
+
+- 主要更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】修复AMD处理及其它相关测试温度导致出错的可能BUG代码，彻底解决所有可能导致预览显示不正常和可能日志报错的问题。
+- 2.【sirpdboy独家研发】升级设置向导1.7，增加自定义防火墙设置、SYN-flood、IP动态伪装设置、增加DHCP服务开启和DNS服务通告等实用功能，真正实现傻瓜化一键调试上网，设置向导菜单可以隐藏，取消隐藏在进阶设置或者SSH登陆后台 3号功能恢复向导主题功能显示。
+- 3.【sirpdboy特别优化】 更新OPENCLASH客户端为DEV版，同时打包对应DEV内核，降低使用成本，入手即用。
+- 4.【sirpdboy独家研发】 状态和概览首页加入【在线用户】实时状态栏，精准了解在线机器数量和品牌情况（包括手动指定IP机器、其它路由设备和网络中其它所有在线设备）。
+- 5.【sirpdboy独家研发】 升级 进阶设置1.4.7，酷猫设置中加入 收缩和展开工具栏功能设置功能，强迫症朋友的福音。
+- 6.【sirpdboy独家研发】 升级酷猫主题1.2.7，修复：OPENCLASH字体颜色显示、DOCKER服务执行提示框透明看不清提示文字、多项目列表标志被增加按键遮档等问题。
+- 7.【sirpdboy特别优化】 增加oh-my-zsh插件，关掉再打开ssh时候也能选择历史命令，进一步降低调试成本。
+- 8.【sirpdboy独家研发】修复WinSCP及其它SSH登陆传输工具登陆不了软路由后台问题，putty和其它SSH后台工具登陆后有专属9大功能菜单，退出后重新进入用 menu命令。
+- 9.精简MINI和极致SUPER集成kmod-tun驱动，bypass旁路由取消docker。
+- 0.所有插件同步更新最新版本。修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
+关于普通版和VIP版说明：普通版内核基本同步LEAN大版本内核，插件和驱动基本保持不变。VIP版在普通版的基础上会增加更多插件更多更新和更多版本，支持的机型也更多，并且多一些专属的功能如 主题设置功能、MWAN3专属优化、iStore、Docker、KMS、以及更多内核版本，如：VIP大全Plus版内核6.1.26、VIP精简MINI版内核6.1.26、VIP旁路bypass版内核：5.4.203、VIP极致Super版内核：5.10.134，VIP旁路和VIP极致版集成大多数网卡和部分WIFI驱动。
 
 ## 2023年4月1日 更新9个版本固件[内核5.15.104] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。 【sirpdboy独家优化】   （普通大全PLUS版5.15.104/无应用商店/无docker   +普通精简MINI版5.15.104/无应用商店/无docker   +普通极致super版5.15.104/无应用商店/无docker   +VIP大全PLUS版5.15.104/应用商店/docker + VIP精简MINI版5.15.104/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + R2S VIP精简版5.15.104/应用商店/docker+R4S  VIP精简版5.15.104/应用商店/docker+ ）
 

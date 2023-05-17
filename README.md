@@ -114,6 +114,25 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+2023年5月17日 最新更新- 全部版本都集成sirpdboy独家研发的 luci-app-chatgpt插件，CHATGPT的福音。
+
+sirpdboy固件设置向导说明：https://www.bilibili.com/read/cv23742050
+
+luci-app-chatgpt恩山贴：https://www.right.com.cn/forum/thread-8290062-1-1.html
+
+关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
+
+-【sirpdboy独家优化】   （普通极致Super版6.1.28/无应用商店/无docker   +VIP大全PLUS版6.1.28/应用商店/docker + VIP精典MINI版6.1.28/应用商店/docker + 
+- VIP极致SUPER版5.10.134/应用商店/docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker +VIP R2S 版5.4/应用商店/docker +
+- VIP R4S 版5.4/应用商店/docker +VIP R4SE 版5.4/应用商店/docker + 【应TG群友需要新加】）
+
+ 主要更新内容如下：【在上个版本的基础上优化更新如下】
+
+- 1.【sirpdboy独家研发】升级DDNS-GO 5.2.1 ，解决 无法保留DDNS-GO 配置文件升级的问题。 
+- 2.【sirpdboy独家研发】增加SIRPDBOY开发的luci-app-chatgpt插件。在路由上就可以轻松chatgpt了。
+- 3.【sirpdboy特别优化】升级BYPASS 修复V2ray和XRAY使用问题，修复规则GFW库更新出错等问题。
+- 4.所有插件同步更新最新版本。修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
 2023年5月13日 最新更新-庆生版：庆祝sirpdboy今天手术后顺利出院。因曾经常醉酒（酒精肝）+经常不吃早饭+夜猫子，导致胆结石，在此告戒大家：按时三餐吃早饭、按时作息不熬夜、注意饮食少醉酒！不要等失去了才后悔莫及！【另外发现一个非常有效的减肥方法：就是去医院打一针全身麻醉，然后只打留置针（葡萄糖等）不吃饭，经本人血泪教训得出的经验：每天瘦一斤以上。】
 
 【重要通知】之前正在开发OPENWRT专用chatgpt-web版本，因为住院原因，只能推迟发布，等稍好点，测试好了后，将第一时间发布！ 

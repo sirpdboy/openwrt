@@ -122,16 +122,18 @@ luci-app-chatgpt恩山贴：https://www.right.com.cn/forum/thread-8290062-1-1.ht
 
 关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
 
--【sirpdboy独家优化】   （普通极致Super版6.1.28/无应用商店/无docker   +VIP大全PLUS版6.1.28/应用商店/docker + VIP精典MINI版6.1.28/应用商店/docker + 
-- VIP极致SUPER版5.10.134/应用商店/docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker +VIP R2S 版5.4/应用商店/docker +
-- VIP R4S 版5.4/应用商店/docker +VIP R4SE 版5.4/应用商店/docker + 【应TG群友需要新加】）
+2023年7月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
 
- 主要更新内容如下：【在上个版本的基础上优化更新如下】
+- 【sirpdboy独家优化】   （普通大全plus版6.1.35/无应用商店/docker 普通精典mini版6.1.35/无应用商店/无docker 普通极致Super版6.1.35/无应用商店/无docker 普通极致 R2S 版6.1.34 /无应用商店/docker 普通极致 R4S 版6.1.34 /无应用商店/docker
+- VIP大全PLUS版6.1.35/应用商店/docker VIP精简MINI版6.1.35/应用商店/docker VIP极致SUPER版5.10.134/应用商店/无docker VIP旁路由BYPASS版5.4.203/应用商店/无docker VIP R2S 版6.1.34 /应用商店/docker VIP R4S 版6.1.34 /应用商店/docker
+- VIP R5c 版6.1.34 /应用商店/docker VIP R5S 版6.1.34 /应用商店/docker  ） 
 
-- 1.【sirpdboy独家研发】升级DDNS-GO 5.2.1 ，解决 无法保留DDNS-GO 配置文件升级的问题。 
-- 2.【sirpdboy独家研发】增加SIRPDBOY开发的luci-app-chatgpt插件。在路由上就可以轻松chatgpt了。
-- 3.【sirpdboy特别优化】升级BYPASS 修复V2ray和XRAY使用问题，修复规则GFW库更新出错等问题。
-- 4.所有插件同步更新最新版本。修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+- 主要更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】升级kucat主题，优化手机登陆LOGO图标、登陆位置等，改启动自动下载壁纸为每日首次打开后台自动更新下载壁纸。
+- 2.【sirpdboy独家研发】升级DDNS-GO LUCI-APP-DDNS-GO增加后台直达链接。增加检测时间参数。
+- 3.【sirpdboy独家研发】升级luci-app-chatgpt插件，增加默认身份设置，设置中增加更多可选身份和额度查询，优化输入框显示不完整等问题。
+- 4.增加usb-printer依赖。取消登陆监控插件。加入网络限速插件。
+- 5.所有插件同步更新最新版本。修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
 
 2023年5月13日 最新更新-庆生版：庆祝sirpdboy今天手术后顺利出院。因曾经常醉酒（酒精肝）+经常不吃早饭+夜猫子，导致胆结石，在此告戒大家：按时三餐吃早饭、按时作息不熬夜、注意饮食少醉酒！不要等失去了才后悔莫及！【另外发现一个非常有效的减肥方法：就是去医院打一针全身麻醉，然后只打留置针（葡萄糖等）不吃饭，经本人血泪教训得出的经验：每天瘦一斤以上。】
 

@@ -114,13 +114,43 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+2023年8月26日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
+
+- 【sirpdboy独家优化】
+- 普通极致SUPER版6.1.47/无应用商店/无docker 
+- 普通精典MINI版6.1.47/无应用商店/无docker 
+- VIP大全PLUS版6.1.47/应用商店/docker 
+- VIP精简MINI版6.1.47/应用商店/docker 
+- VIP极致SUPER版6.1.47/应用商店/无docker 
+- VIP旁路由BYPASS版5.4.254/应用商店/无docker 
+- VIP R2S 版6.1.43 /应用商店/docker 
+- VIP R4S 版6.1.43 /应用商店/docker
+- VIP R4SE 版6.1.43/应用商店/docker
+- VIP R5C 版6.1.43/应用商店/docker
+- VIP R5S 版6.1.43/应用商店/docker
+- VIP 小米 AC2100  精简版
+- VIP 红米 RM2100  精简版
+- 主要更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】升级管控【定时限速】，解决限速时间到不自动限速或者不取消限速问题，优化方便手机设置，【启用】服务放在前面。
+- 2.【sirpdboy独家优化】升级WMAN3 到2.11.7版。解决多线负载问题【待测试】。
+- 3.【sirpdboy独家优化】升级DDNS-GO 5.6.1 解决插件更新时间相差8小时问题。
+- 4.【sirpdboy独家优化】xray默认1.7.2版，需要新版本请在PASSWALL组件更新中更新到最新版本。
+- 5.【sirpdboy独家优化】升级bypass，将节点和订阅分开，优化订阅功能，修复自动更新订阅或重启服务无效问题。
+- 6.【sirpdboy独家优化】升级管控【应用过滤】，同步官网最新过滤库v23.07.29。使用前需启用服务。
+- 7.【sirpdboy独家研发】升级管控【家长控制】，方便手机设置，【启用】服务放在前面。
+- 8.【sirpdboy独家研发】升级管控【任务设置】，方便手机设置，【启用】服务放在前面。
+- 9.【sirpdboy独家研发】升级【设置向导】，修复旁路由模式，防火墙自定义协议未更新问题。
+- 10.【sirpdboy独家优化】应TG群友建议，所有版本增加SQM流控插件。
+- 11.【sirpdboy独家优化】修复极致版和旁路由版本特殊情况下OPENCLASH，无法一键更新问题。
+- 12.所有插件同步更新最新版本。更多细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+- 
+【重要提示】因不mosdns插件与其他插件存在不可调和矛盾，此次更新的版本暂未集成mosdns，介意者静待下个版本。
+
 2023年5月17日 最新更新- 全部版本都集成sirpdboy独家研发的 luci-app-chatgpt插件，CHATGPT的福音。
 
-sirpdboy固件设置向导说明：https://www.bilibili.com/read/cv23742050
-
-luci-app-chatgpt恩山贴：https://www.right.com.cn/forum/thread-8290062-1-1.html
-
-关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
+- sirpdboy固件设置向导说明：https://www.bilibili.com/read/cv23742050
+- luci-app-chatgpt恩山贴：https://www.right.com.cn/forum/thread-8290062-1-1.html
+- 关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
 
 2023年7月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
 

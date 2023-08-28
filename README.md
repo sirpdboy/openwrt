@@ -520,7 +520,9 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 - 【123网盘工具下载】： https://www.123pan.com/s/dS5A-6qxqd.html  提取码: qnm4
 
-- 【123云盘固件下载】链接: https://www.123pan.com/s/dS5A-nJxqd 提取码:nxFY
+- 【小飞机网盘固件下载】主下载:https://www.feijix.com/s/7NIfAxU
+- 
+- 【123云盘固件下载】备用下载: https://www.123pan.com/s/dS5A-nJxqd 提取码:nxFY
 
 -  Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 
@@ -607,43 +609,6 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
-## 赞助名单
-
-***Li                  赞助66元
-
-***风                  赞助100元
-
-***人                  赞助100元
-
-**j*g                  赞助200元
-
-***ㄎ                  赞助15元
-
-***群                  赞助50元
-
-***看                  赞助8.8元
-
-***洋                  赞助5元
-
-***畅                  赞助50元
-
-***石                  赞助7.77元
-
-***阳                  赞助66.66元
-
-***儒                  赞助10元
-
-***斌                  赞助10元
-
-**C*o                  赞助20元
-
-***洗                  赞助30元
-
-**p*k                  赞助50元
-
-**KK                   赞助600元
-
-**潮                   赞助50元
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>

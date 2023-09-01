@@ -114,7 +114,36 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
-2023年8月26日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
+## 2023年9月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
+
+- 普通极致SUPER版6.1.50/无应用商店/无docker 
+- 普通精典MINI版6.1.50/无应用商店/无docker 
+- 普通大全PLUS版6.1.50/无应用商店/无docker 
+- 普通 R2S 版6.1 /无应用商店/无docker 
+- 普通 R4S 版6.1 /无应用商店/无docker 
+- VIP大全PLUS版6.1.50/应用商店/docker 
+- VIP精简MINI版6.1.50/应用商店/docker 
+- VIP极致SUPER版6.1.50/应用商店/无docker （和MINI版本一样常用驱动不带无线）
+- VIP旁路由BYPASS版5.4.203/应用商店/无docker （和8.1版本一样带部分无线）
+- VIP R2S 版6.1 /应用商店/docker 
+- VIP R4S 版6.1 /应用商店/docker
+- VIP R4SE 版6.1/应用商店/docker
+- VIP R5C 版6.1/应用商店/docker
+- VIP R5S 版6.1/应用商店/docker
+- VIP 小米 AC2100  精简版
+- VIP 红米 RM2100  精简版
+
+主要更新内容如下：【在上个版本的基础上优化更新如下】
+- 1.【sirpdboy独家研发】就TG群好伙伴建议，升级首页预览中，网口连接速度显示MB（兆B）升级为GB(千兆B)。
+- 2.【sirpdboy独家优化】修复上一版 日志中 脚本错误问题。
+- 3.【sirpdboy独家优化】所有版本加上MOSDNS插件。 
+- 4.【sirpdboy独家优化】因xray1.7.2和MOSDNS冲突，xray全部升级到1.8.3最新版本。【注】hello world用XRAY新版本协议将无法使用。
+- 5.【sirpdboy独家优化】 修复AdGuard Home模板文件和配置文件，在某些情况下提示配置错误，导致无法正常启动问题。
+- 6.【sirpdboy独家优化】 升级进阶设置，高级中可取消 SSH登陆菜单后不进入菜单，解决ZSH和ShellClash导致安装脚本卡住问题（menu命令重新进入菜单)。
+- 7.所有插件同步更新最新版本。更多细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
+
+
+## 2023年8月26日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
 
 - 【sirpdboy独家优化】
 - 普通极致SUPER版6.1.47/无应用商店/无docker 
@@ -146,13 +175,13 @@
 - 
 【重要提示】因不mosdns插件与其他插件存在不可调和矛盾，此次更新的版本暂未集成mosdns，介意者静待下个版本。
 
-2023年5月17日 最新更新- 全部版本都集成sirpdboy独家研发的 luci-app-chatgpt插件，CHATGPT的福音。
+## 2023年5月17日 最新更新- 全部版本都集成sirpdboy独家研发的 luci-app-chatgpt插件，CHATGPT的福音。
 
 - sirpdboy固件设置向导说明：https://www.bilibili.com/read/cv23742050
 - luci-app-chatgpt恩山贴：https://www.right.com.cn/forum/thread-8290062-1-1.html
 - 关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
 
-2023年7月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
+## 2023年7月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
 
 - 【sirpdboy独家优化】   （普通大全plus版6.1.35/无应用商店/docker 普通精典mini版6.1.35/无应用商店/无docker 普通极致Super版6.1.35/无应用商店/无docker 普通极致 R2S 版6.1.34 /无应用商店/docker 普通极致 R4S 版6.1.34 /无应用商店/docker
 - VIP大全PLUS版6.1.35/应用商店/docker VIP精简MINI版6.1.35/应用商店/docker VIP极致SUPER版5.10.134/应用商店/无docker VIP旁路由BYPASS版5.4.203/应用商店/无docker VIP R2S 版6.1.34 /应用商店/docker VIP R4S 版6.1.34 /应用商店/docker
@@ -165,7 +194,7 @@
 - 4.增加usb-printer依赖。取消登陆监控插件。加入网络限速插件。
 - 5.所有插件同步更新最新版本。修复完善已知的所有问题，具体细节请自行测试。插件分布图查看TG群置顶公告插件介绍说明。
 
-2023年5月13日 最新更新-庆生版：庆祝sirpdboy今天手术后顺利出院。因曾经常醉酒（酒精肝）+经常不吃早饭+夜猫子，导致胆结石，在此告戒大家：按时三餐吃早饭、按时作息不熬夜、注意饮食少醉酒！不要等失去了才后悔莫及！【另外发现一个非常有效的减肥方法：就是去医院打一针全身麻醉，然后只打留置针（葡萄糖等）不吃饭，经本人血泪教训得出的经验：每天瘦一斤以上。】
+## 2023年5月13日 最新更新-庆生版：庆祝sirpdboy今天手术后顺利出院。因曾经常醉酒（酒精肝）+经常不吃早饭+夜猫子，导致胆结石，在此告戒大家：按时三餐吃早饭、按时作息不熬夜、注意饮食少醉酒！不要等失去了才后悔莫及！【另外发现一个非常有效的减肥方法：就是去医院打一针全身麻醉，然后只打留置针（葡萄糖等）不吃饭，经本人血泪教训得出的经验：每天瘦一斤以上。】
 
 【重要通知】之前正在开发OPENWRT专用chatgpt-web版本，因为住院原因，只能推迟发布，等稍好点，测试好了后，将第一时间发布！ 
 
@@ -219,7 +248,7 @@
 
 ## 庆祝3.8女神节，特地大更新，祝天下所有女士节日快乐！
 
-2023年3月8日 更新11个版本固件[内核5.15.98] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。
+## 2023年3月8日 更新11个版本固件[内核5.15.98] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。
 
 - 【sirpdboy独家优化】   （
 - 普通大全PLUS版5.15.98/无应用商店/docker   +
@@ -250,7 +279,7 @@
 
 ## 关注本群固件分享频道：https://t.me/sirpdboy_openwrt 【查看所有历史更新记录】
 
-2023年3月1日 更新11个版本固件[内核5.15.94] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。 
+## 2023年3月1日 更新11个版本固件[内核5.15.94] 集最新KUCAT主题，普通版暂未带KUCAT设置插件。 
 （普通大全PLUS版5.15.94/无应用商店/docker+普通精简MINI版5.15.94/无应用商店/无docker+普通精简SUPER版5.15.94/无应用商店/无docker+R2S/R4S 普通精简MINI版5.15.94/无应用商店/无docker+VIP大全PLUS版5.15.94/应用商店/docker + VIP精简MINI版5.15.94/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + 
 R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
@@ -276,7 +305,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 ----------------------
 
-2023-2-15 更新8个版本：【sirpdboy独家优化】   （普通精简mini版5.15.93/无应用商店/无docker   +普通极致super版5.15.93/无应用商店/无docker   + VIP版6个版本更新5.15.93+5.4.203 /应用商店/docker ）
+## 2023-2-15 更新8个版本：【sirpdboy独家优化】   （普通精简mini版5.15.93/无应用商店/无docker   +普通极致super版5.15.93/无应用商店/无docker   + VIP版6个版本更新5.15.93+5.4.203 /应用商店/docker ）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
 
@@ -292,7 +321,8 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 ------
 
-2023-2-1 更新8个版本：【sirpdboy独家优化】   （
+## 2023-2-1 更新8个版本：【sirpdboy独家优化】   （
+
 - 普通大全Plus版5.15.90/无应用商店/docker   +
 - 普通精简MINI版5.15.90/无应用商店/无docker   +
 - 普通极致Super版5.15.90/无应用商店/无docker   +
@@ -311,7 +341,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 - 6.【sirpdboy独家优化】修复旁路由版本CUPS打印服务已经启动，但不能访问后台问题。
 - 7.修复完善已知的所有问题，具体细节请自行测试。
 
-2023-1-13  更新6个版本：【sirpdboy独家优化】   （普通精简MINI版5.15.86/无应用商店/无docker + VIP大全PLUS版5.15.86/应用商店/docker + VIP精简MINI版5.15.86/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + R2S/R4S VIP精简MINI版5.15.86/应用商店/无docker）
+## 2023-1-13  更新6个版本：【sirpdboy独家优化】   （普通精简MINI版5.15.86/无应用商店/无docker + VIP大全PLUS版5.15.86/应用商店/docker + VIP精简MINI版5.15.86/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker + R2S/R4S VIP精简MINI版5.15.86/应用商店/无docker）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
 - 1.【sirpdboy独家优化】升级adguardhome，修复LUCI下更新内核困难问题。
@@ -323,7 +353,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 --------------------------------------------------------------------------------------
 
-- 祝大家元旦快乐！！2023-1-1 X86更新7个版本：【sirpdboy独家优化】   （ 普通大全PLUS版5.15.85/无应用商店/docker   + 普通精简MINI版5.15.85/无应用商店/无docker   + 普通极致SUPER版5.15.85/无应用商店/无docker   + VIP大全PLUS版5.15.85/应用商店/docker + VIP精简MINI版5.15.85/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker）
+##  祝大家元旦快乐！！2023-1-1 X86更新7个版本：【sirpdboy独家优化】   （ 普通大全PLUS版5.15.85/无应用商店/docker   + 普通精简MINI版5.15.85/无应用商店/无docker   + 普通极致SUPER版5.15.85/无应用商店/无docker   + VIP大全PLUS版5.15.85/应用商店/docker + VIP精简MINI版5.15.85/应用商店/docker + VIP极致SUPER版5.4.203/应用商店/无docker + VIP旁路由BYPASS版5.4.203/应用商店/无docker）
 
 - 1.【sirpdboy独家优化】升级大吉1.7.5，修复配置文件不能保留升级问题。
 - 2.【sirpdboy独家优化】升级 设置向导 解决 某些浏览器偶尔登陆错误问题。
@@ -332,7 +362,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 --------------------------------------------------------------------------------------
 
-- 2022-12-16 X86更新5个版本：【sirpdboy独家优化】   （
+##  2022-12-16 X86更新5个版本：【sirpdboy独家优化】   （
 - 普通精简MINI版5.15.83/无应用商店/无docker + VIP大全PLUS版5.15.83/应用商店/docker + VIP精简MINI版5.4.203/应用商店/docker + VIP极致SUPER版5.10.134/应用商店/docker + VIP旁路由BYPASS版5.10.134/应用商店/无docker ）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
@@ -349,7 +379,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 --------------------------------------------------------------------------------------
 
-2022-12-8更新5个版本：【sirpdboy独家优化】   （2022-12-8 X86更新5个版本：【sirpdboy独家优化】   （
+## 2022-12-8更新5个版本：【sirpdboy独家优化】   （2022-12-8 X86更新5个版本：【sirpdboy独家优化】   （
 普通极致SUPER版5.15.80/无应用商店/无docker +普通精简MINI版5.15.80/无应用商店/无docker  +VIP精简MINI版5.4.203/应用商店/docker +VIP极致SUPER版5.4.203/应用商店/无docker +VIP旁路由BYPASS版5.4.203/应用商店/无docker ）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
@@ -360,7 +390,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 - 5.【sirpdboy独家优化】修正nat回流问题。
 
 
-2022-11-11更新：【sirpdboy独家优化】   （普通精简MINI版5.15.77/无应用商店/无docker + VIP大全PLUS版5.15.77/应用商店/docker + VIP精简MINI版5.15.77/应用商店/docker + VIP极致SUPER版5.15.77/应用商店/docker + VIP旁路由BYPASS版5.15.77/应用商店/无docker + VIP精简MINI版 R2S/R4S5.15.77/应用商店/docker）【庆双11特别版】
+## 2022-11-11更新：【sirpdboy独家优化】   （普通精简MINI版5.15.77/无应用商店/无docker + VIP大全PLUS版5.15.77/应用商店/docker + VIP精简MINI版5.15.77/应用商店/docker + VIP极致SUPER版5.15.77/应用商店/docker + VIP旁路由BYPASS版5.15.77/应用商店/无docker + VIP精简MINI版 R2S/R4S5.15.77/应用商店/docker）【庆双11特别版】
 
 - 刷机说明：
 - 1.由于经常有人问刷机哪个文件，现在EFI是BIOS和EFI通用文件，因此取消BIOS文件，大家刷机用EFI的文件就行。VIP版带的rootfs这个是给PVE的LXC容器使用，请勿弄错。
@@ -378,7 +408,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 - 8.修复目前已知所有问题，具体功能效果自行测试。
 
 
-2022-11-1更新：【sirpdboy独家优化】   （VIP大全版5.15.76 内核/docker/应用商店 + VIP精简版5.15.76 内核/应用商店/docker + VIP旁路由5.15.76 内核/应用商店/无docker + 大全版5.15.76 内核/无docker/无应用商店+ 精简版5.15.76 内核/无docker/无应用商店 + 极致版/5.15.76 内核/无docker/无应用商店 +VIP区：R2S\R4S\小米R2100）
+## 2022-11-1更新：【sirpdboy独家优化】   （VIP大全版5.15.76 内核/docker/应用商店 + VIP精简版5.15.76 内核/应用商店/docker + VIP旁路由5.15.76 内核/应用商店/无docker + 大全版5.15.76 内核/无docker/无应用商店+ 精简版5.15.76 内核/无docker/无应用商店 + 极致版/5.15.76 内核/无docker/无应用商店 +VIP区：R2S\R4S\小米R2100）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
 - 1.【sirpdboy独家研发】升级网络测试2.0.5版，增加外网测试PFERNET等。
@@ -392,7 +422,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 ## 附注意说明：感谢大家长期以来的支持与厚爱，之所以推一个VIP版，是因为疫情原因群主目前进入待业阶段，目前准备全力备战学习、研究、开发软路由等相关业务，发布VIP有爱发电也是希望借此能贴补一下家用（有爱的好伙伴支持后截图发唯一TG号：sirpdboy,然后进VIP群）。望体谅与支持！
 
-2022-10-20更新：【sirpdboy独家优化】   （精简VIP贵宾版5.15.74 内核/docker/应用商店 + 精简MINI版无docker无应用商店/5.15.74 内核 + 红米RM2100 极致5.10内核 breed和pbboot版）
+## 2022-10-20更新：【sirpdboy独家优化】   （精简VIP贵宾版5.15.74 内核/docker/应用商店 + 精简MINI版无docker无应用商店/5.15.74 内核 + 红米RM2100 极致5.10内核 breed和pbboot版）
 
 - 更新内容如下：【在上个版本的基础上优化更新如下】
 - 1.【sirpdboy独家研发】升级网络测试2.0版，增加内网测试WEB版，更新IPFER3服务实时更新，宽带速度测试详细报告等。
@@ -520,9 +550,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 - 【123网盘工具下载】： https://www.123pan.com/s/dS5A-6qxqd.html  提取码: qnm4
 
-- 【小飞机网盘固件下载】主下载:https://www.feijix.com/s/7NIfAxU
-- 
-- 【123云盘固件下载】备用下载: https://www.123pan.com/s/dS5A-nJxqd 提取码:nxFY
+- 【小飞机网盘固件下载】主下载: https://www.feijix.com/s/7NIfAxU
 
 -  Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 

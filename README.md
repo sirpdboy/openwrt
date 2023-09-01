@@ -116,22 +116,22 @@
 
 ## 2023年9月1日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
 
-- 普通极致SUPER版6.1.50/无应用商店/无docker 
-- 普通精典MINI版6.1.50/无应用商店/无docker 
-- 普通大全PLUS版6.1.50/无应用商店/无docker 
-- 普通 R2S 版6.1 /无应用商店/无docker 
-- 普通 R4S 版6.1 /无应用商店/无docker 
-- VIP大全PLUS版6.1.50/应用商店/docker 
-- VIP精简MINI版6.1.50/应用商店/docker 
-- VIP极致SUPER版6.1.50/应用商店/无docker （和MINI版本一样常用驱动不带无线）
-- VIP旁路由BYPASS版5.4.203/应用商店/无docker （和8.1版本一样带部分无线）
-- VIP R2S 版6.1 /应用商店/docker 
-- VIP R4S 版6.1 /应用商店/docker
-- VIP R4SE 版6.1/应用商店/docker
-- VIP R5C 版6.1/应用商店/docker
-- VIP R5S 版6.1/应用商店/docker
-- VIP 小米 AC2100  精简版
-- VIP 红米 RM2100  精简版
+- 普通极致SUPER版6.1.50内核/无应用商店/无docker 
+- 普通精典MINI版6.1.50内核/无应用商店/无docker 
+- 普通大全PLUS版6.1.50内核/无应用商店/docker 
+- 普通 R2S 版6.1内核 /无应用商店/无docker 
+- 普通 R4S 版6.1内核 /无应用商店/无docker 
+- VIP大全PLUS版6.1.50内核/应用商店/docker 
+- VIP精简MINI版6.1.50内核/应用商店/docker 
+- VIP极致SUPER版6.1.50内核/应用商店/无docker （和MINI版本一样常用驱动不带无线）
+- VIP旁路由BYPASS版5.4.203内核/应用商店/无docker （和8.1版本一样带部分无线）
+- VIP R2S 版6.1内核 /应用商店/docker 
+- VIP R4S 版6.1内核 /应用商店/docker
+- VIP R4SE 版6.1内核/应用商店/docker
+- VIP R5C 版6.1内核/应用商店/docker
+- VIP R5S 版6.1内核/应用商店/docker
+- VIP 小米 AC2100  精简版5.10内核
+- VIP 红米 RM2100  精简版5.10内核
 
 主要更新内容如下：【在上个版本的基础上优化更新如下】
 - 1.【sirpdboy独家研发】就TG群好伙伴建议，升级首页预览中，网口连接速度显示MB（兆B）升级为GB(千兆B)。

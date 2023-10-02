@@ -115,6 +115,27 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了😂" title="返回顶部" align="right"/>
 </a>
 
+##2023年10月1日 更新  进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
+- 普通极致SUPER版6.1.52内核/无应用商店/无docker 
+- 普通精典MINI版6.1.52内核/无应用商店/无docker 
+- 普通大全PLUS版6.1.52内核/无应用商店/docker 
+- 普通 R2S 版6.1内核 /无应用商店/无docker 
+- 普通 R4S 版6.1内核 /无应用商店/无docker 
+- #VIP大全PLUS版6.1.52内核/应用商店/docker 
+- VIP精简MINI版6.1.55内核/应用商店/docker 
+- VIP极致SUPER版5.4.255内核/应用商店/（动态控制docker和驱动）
+- VIP旁路由BYPASS版5.4.203内核/应用商店/无docker （和8.1版本一样带部分无线）
+- VIP R2S 版6.1内核 /应用商店/docker 
+- VIP R4S 版6.1内核 /应用商店/docker
+- VIP R4SE 版6.1内核/应用商店/docker
+- #VIP R5C 版6.1内核/应用商店/docker
+- VIP R5S 版6.1内核/应用商店/docker
+- 在上一版本的基础上优化更新如下：
+- 一、大全、旁路由、极致版本使用老版本OPENSSL以解决SSR协议节点不能使用问题。
+- 二、所有版本加回snmpd。
+- 三、修复qbittorrent无法启用问题。
+- 四、所有插件同步更新到最新版本。具体更多更新请自行测试！
+
 ## 2023年9月25日 更新， 进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】
 - 【sirpdboy独家优化】普通极致SUPER版6.1.52内核/无应用商店/无docker VIP大全PLUS版6.1.52内核/应用商店/docker VIP精简MINI版6.1.52内核/应用商店/docker 
 - VIP旁路由BYPASS版5.4.255内核/应用商店/无docker 

@@ -625,7 +625,7 @@ R2S/R4S VIP精简MINI版5.15.94/应用商店/docker）
 
 - 【123网盘工具下载】： https://www.123pan.com/s/dS5A-6qxqd.html  提取码: qnm4
 
-- 【123网盘固件下载】主下载: https://www.123pan.com/s/dS5A-nJxqd.html 提取码: nxFY
+- 【123网盘固件下载】主下载:  https://www.123865.com/s/dS5A-gZNqd?  提取码: GbnW
 
 -  Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
 

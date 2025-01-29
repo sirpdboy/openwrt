@@ -92,8 +92,6 @@ jobs:
         cpu_name=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | awk -F: '{print $2}' | sed 's/^[ \t]*//')
         if [[ "$cpu_name" =~ "8370C" || "$cpu_name" =~ "7763" ]]; then
           ulimit -a
-        else
-          # exit 1
          fi
     - name: Set release env
       run: |

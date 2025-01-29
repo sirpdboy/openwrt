@@ -22,10 +22,10 @@ on:
         options: [ master, openwrt-23.05 ]
       config_s:
         description: 'config:'
-        default: ' Vip-Mini'
+        default: ' Vip-Super'
         required: true
         type: choice
-        options: [  Vip-Mini ]
+        options: [  Vip-Super ]
   
       cpu_s:
         description: 'CPU:'

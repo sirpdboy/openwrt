@@ -51,11 +51,6 @@ on:
         required: false
 
 env:
-
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  #REPO_URL: https://github.com/immortalwrt/immortalwrt
-  #REPO_URL: https://github.com/istoreos/istoreos
-  #REPO_URL: https://github.com/openwrt/openwrt.git
   FEEDS_CONF: feeds.conf.default
   DIY_P1_SH: diy.sh
   UPLOAD_BIN_DIR: false
@@ -151,10 +146,10 @@ jobs:
       working-directory: /builder
       run: |
         df -hT $PWD
-        if [[ $REPO_BRANCH == 'master' ]]; then
-          git clone --depth 1 https://github.com/coolsnowwolf/lede -b $REPO_BRANCH  openwrt
+        if [[ ${{ env.REPO_BRANCH }} == 'master' ]]; then
+          git clone --depth 1 https://github.com/coolsnowwolf/lede -b ${{ env.REPO_BRANCH }}  openwrt
         else 
-          git clone --depth 1 https://github.com/immortalwrt/immortalwrt -b $REPO_BRANCH openwrt
+          git clone --depth 1 https://github.com/immortalwrt/immortalwrt -b ${{ env.REPO_BRANCH }} openwrt
         fi
         git clone ${{ secrets.LEDEURL }} lede
         cp -Rf ./lede/* openwrt
@@ -187,12 +182,6 @@ jobs:
     - name: defconfig
       run: |
         cd openwrt
-        cat  ./config/${CONFIG_S}  > .config
-        case "${CONFIG_S}" in
-        "Vip"*)        
-        # cat  ./config/comm  >> .config
-        ;;
-        esac
          echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config #Cache.Speedup
          make defconfig 
         

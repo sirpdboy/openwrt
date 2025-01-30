@@ -176,11 +176,6 @@ jobs:
       run: |
         cd openwrt
         cat  ./config/${CONFIG_S}  >  .config
-        case "${CONFIG_S}" in
-        "Vip"*)        
-        cat  ./config/comm  >>  .config
-        ;;
-        esac
         make defconfig 
     - name: Download package
       id: package

@@ -25,7 +25,7 @@ on:
         default: ' Vip-Super'
         required: true
         type: choice
-        options: [  Vip-Super Vip-Mini ]
+        options: [  Vip-Super, Vip-Mini ]
   
       cpu_s:
         description: 'CPU:'

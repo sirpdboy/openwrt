@@ -146,11 +146,7 @@ jobs:
       working-directory: /builder
       run: |
         df -hT $PWD
-        if [[ ${{ env.REPO_BRANCH }} == 'master' ]]; then
-          git clone --depth 1 https://github.com/coolsnowwolf/lede -b master openwrt
-        else 
-          git clone --depth 1 https://github.com/immortalwrt/immortalwrt -b ${{ env.REPO_BRANCH }} openwrt
-        fi
+        git clone --depth 1 https://github.com/coolsnowwolf/lede -b master openwrt
         git clone ${{ secrets.LEDEURL }} lede
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
@@ -161,12 +157,10 @@ jobs:
       run: cd openwrt && ./scripts/feeds install -a
     - name: Load custom feeds
       run: |
-        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         df -h
         chmod +x $DIY_P1_SH || true
         cd openwrt
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
-        echo "::set-output name=OPENWRTROOT::$(echo $PWD)"
         chmod +x $DIY_P1_SH  || true
          [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH ||  ../$DIY_P1_SH
          chmod -R 755 .
@@ -174,17 +168,14 @@ jobs:
       id: cache
       uses: stupidloud/cachewrtbuild@main
       with:
-      
         ccache: 'true'
-        mixkey: ${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}
+        mixkey: x86-64
         skip_saving: 'true'
         prefix: /builder/openwrt
     - name: defconfig
       run: |
         cd openwrt
-         echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config #Cache.Speedup
-         make defconfig 
-        
+        make defconfig 
     - name: Download package
       id: package
       run: |

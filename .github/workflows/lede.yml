@@ -177,7 +177,7 @@ jobs:
       run: |
         cd openwrt
         ls -a
-        cp -Rf /builder/openwrt/config/${CONFIG_S} .config
+        cp -Rf $GITHUB_WORKSPACE/config/${CONFIG_S} .config
         make defconfig 
     - name: Download package
       id: package

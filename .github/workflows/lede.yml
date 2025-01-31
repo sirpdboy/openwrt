@@ -40,10 +40,10 @@ on:
           
       target:
         description: 'target:'
-        default: 'x86_64'
+        default: 'x86-64'
         required: true
         type: choice
-        options: [ x86_64 ]
+        options: [ x86-64 ]
 
       date_s:
         description: 'date'

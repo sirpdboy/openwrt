@@ -156,19 +156,15 @@ jobs:
       run: cd openwrt && ./scripts/feeds install -a
     - name: Load custom feeds
       run: |
-        df -h
-        chmod +x $DIY_P1_SH || true
         cd openwrt
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
-        chmod +x $DIY_P1_SH  || true
-        ls -a
-         [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH ||  ../$DIY_P1_SH
-         chmod -R 755 .
+        echo "OPENWRTROOT:$OPENWRTROOT"
+        bash $GITHUB_WORKSPACE/$DIY_P1_SH
+        chmod -R 755 .
     - name: Cache
       id: cache
       uses: stupidloud/cachewrtbuild@main
       with:
-      
         ccache: 'true'
         mixkey: x86_64
         skip_saving: 'true'
@@ -176,8 +172,9 @@ jobs:
     - name: defconfig
       run: |
         cd openwrt
-        ls -a
+        make distclean
         cp -Rf $GITHUB_WORKSPACE/config/${CONFIG_S} .config
+        make distclean
         make defconfig 
     - name: Download package
       id: package

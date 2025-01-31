@@ -171,10 +171,7 @@ jobs:
       run: |
         cd openwrt
         make distclean
-        # cp -Rf ./seed/${CONFIG_S} .config
-        cat  ./seed/${CONFIG_S}
         cat  ./seed/${CONFIG_S} > .config
-        make distclean
         make defconfig 
     - name: Download package
       id: package

@@ -159,7 +159,7 @@ jobs:
         cd openwrt
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
         echo "OPENWRTROOT:$OPENWRTROOT"
-        bash $GITHUB_WORKSPACE/$DIY_P1_SH
+        bash ../$DIY_P1_SH
         chmod -R 755 .
     - name: Cache
       id: cache

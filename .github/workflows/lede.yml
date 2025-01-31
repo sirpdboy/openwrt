@@ -161,6 +161,7 @@ jobs:
         cd openwrt
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
         chmod +x $DIY_P1_SH  || true
+        ls -a
          [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH ||  ../$DIY_P1_SH
          chmod -R 755 .
     - name: Cache
@@ -175,6 +176,7 @@ jobs:
     - name: defconfig
       run: |
         cd openwrt
+        ls -a
         cat  ./config/${CONFIG_S}  >  .config
         make defconfig 
     - name: Download package

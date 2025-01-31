@@ -147,7 +147,7 @@ jobs:
         df -hT $PWD
         git clone --depth 1 https://github.com/coolsnowwolf/lede -b master  openwrt
         git clone ${{ secrets.LEDEURL }} lede
-        cp -Rf ./lede/* ./
+        cp -Rf ./lede/* ./openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
@@ -157,9 +157,7 @@ jobs:
     - name: Load custom feeds
       run: |
         cd openwrt
-        echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
-        echo "OPENWRTROOT:$OPENWRTROOT"
-        bash ../$DIY_P1_SH
+        bash ./$DIY_P1_SH
         chmod -R 755 .
     - name: Cache
       id: cache
@@ -173,7 +171,9 @@ jobs:
       run: |
         cd openwrt
         make distclean
-        cp -Rf $GITHUB_WORKSPACE/config/${CONFIG_S} .config
+        # cp -Rf ./seed/${CONFIG_S} .config
+        cat  ./seed/${CONFIG_S}
+        cat  ./seed/${CONFIG_S} > .config
         make distclean
         make defconfig 
     - name: Download package

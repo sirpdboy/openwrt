@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: OpenWrt-lede-mp
+name: lede
 
 on:
   repository_dispatch:
@@ -146,7 +146,7 @@ jobs:
       run: |
         df -hT $PWD
         git clone --depth 1 https://github.com/coolsnowwolf/lede -b master  openwrt
-        git clone ${{ secrets.URL }} lede
+        git clone ${{ secrets.LEDEURL }} lede
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
     - name: Update feeds

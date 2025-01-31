@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: lede
+name: OpenWrt-lede-mp
 
 on:
   repository_dispatch:
@@ -19,13 +19,13 @@ on:
         default: 'master'
         required: true
         type: choice
-        options: [ master, openwrt-23.05 ]
+        options: [ master]
       config_s:
         description: 'config:'
         default: ' Vip-Super'
         required: true
         type: choice
-        options: [  Vip-Super, Vip-Mini ]
+        options: [  Vip-Super ]
   
       cpu_s:
         description: 'CPU:'
@@ -40,10 +40,10 @@ on:
           
       target:
         description: 'target:'
-        default: 'x86-64'
+        default: 'x86_64'
         required: true
         type: choice
-        options: [ x86-64 ]
+        options: [ x86_64 ]
 
       date_s:
         description: 'date'
@@ -62,7 +62,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    if: github.event.repository.owner.id == github.event.sender.id
     name: lede-${{github.event.inputs.config_s}}-${{github.event.inputs.target}}-${{github.event.inputs.branch}}-${{github.event.inputs.date_s}}
     env:
       CONFIG_S: ${{github.event.inputs.config_s}}
@@ -146,8 +145,8 @@ jobs:
       working-directory: /builder
       run: |
         df -hT $PWD
-        git clone --depth 1 https://github.com/coolsnowwolf/lede -b master openwrt
-        git clone ${{ secrets.LEDEURL }} lede
+        git clone --depth 1 https://github.com/coolsnowwolf/lede -b master  openwrt
+        git clone ${{ secrets.URL }} lede
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
     - name: Update feeds
@@ -168,6 +167,7 @@ jobs:
       id: cache
       uses: stupidloud/cachewrtbuild@main
       with:
+      
         ccache: 'true'
         mixkey: x86-64
         skip_saving: 'true'
@@ -240,21 +240,21 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success'  && env.UPLOAD_FIRMWARE == 'true'
       with:
-        name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-Firmware
+        name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-Firmware
         path: ${{ env.FIRMWARE }}
 
     - name: Upload IPK directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
+        name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-ipk
         path: ./openwrt/bin/packages/
  
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
+        name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-bin
         path: ./openwrt/bin/
 
     - name: Upload firmware to release

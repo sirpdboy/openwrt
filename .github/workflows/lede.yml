@@ -170,14 +170,14 @@ jobs:
       with:
       
         ccache: 'true'
-        mixkey: x86-64
+        mixkey: x86_64
         skip_saving: 'true'
         prefix: /builder/openwrt
     - name: defconfig
       run: |
         cd openwrt
         ls -a
-        cat  ./config/${CONFIG_S}  >  .config
+        cp -Rf /builder/openwrt/config/${CONFIG_S} .config
         make defconfig 
     - name: Download package
       id: package

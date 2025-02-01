@@ -157,8 +157,9 @@ jobs:
     - name: Load custom feeds
       run: |
         cd openwrt
-        bash ./$DIY_P1_SH
-        chmod -R 755 .
+         chmod +x ./${DIY_P1_SH}
+         ./$DIY_P1_SH
+         chmod -R 755 .
     - name: Cache
       id: cache
       uses: stupidloud/cachewrtbuild@main

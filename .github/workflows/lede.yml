@@ -15,20 +15,20 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'branch：'
+        description: 'branch'
         default: 'master'
         required: true
         type: choice
         options: [ master]
       config_s:
-        description: 'config:'
+        description: 'config'
         default: ' Vip-Super'
         required: true
         type: choice
-        options: [  Vip-Super ]
+        options: [  Free-Mini,Vip-Mini,Vip-Super ]
   
       cpu_s:
-        description: 'CPU:'
+        description: 'CPU'
         required: true
         default: '8'
         type: choice
@@ -39,7 +39,7 @@ on:
           - '8171M'
           
       target:
-        description: 'target:'
+        description: 'target'
         default: 'x86_64'
         required: true
         type: choice
@@ -53,6 +53,7 @@ on:
 env:
   FEEDS_CONF: feeds.conf.default
   DIY_P1_SH: diy.sh
+  APT: apt
   UPLOAD_BIN_DIR: false
   UPLOAD_IPK_DIR: false
   UPLOAD_FIRMWARE: true
@@ -126,7 +127,7 @@ jobs:
         sudo mkdir -p /builder
         sudo mount /dev/github/runner /builder
         sudo chown -R runner.runner /builder
-        sudo chown $USER:$GROUPS /builder
+        # sudo chown $USER:$GROUPS /builder
     - name: Build System Setup
       env:
         DEBIAN_FRONTEND: noninteractive
@@ -146,7 +147,7 @@ jobs:
       run: |
         df -hT $PWD
         git clone --depth 1 https://github.com/coolsnowwolf/lede -b master  openwrt
-        git clone ${{ secrets.LEDEURL }} lede
+        git clone --depth 1 ${{ secrets.LEDEURL }} -b master lede
         cp -Rf ./lede/* ./openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
     - name: Update feeds
@@ -157,25 +158,29 @@ jobs:
     - name: Load custom feeds
       run: |
         cd openwrt
+
          chmod +x ./${DIY_P1_SH}
          ./$DIY_P1_SH
          chmod -R 755 .
     - name: Cache
-      id: cache
-      uses: stupidloud/cachewrtbuild@main
+      uses: klever1988/cachewrtbuild@main
       with:
-        ccache: 'true'
-        mixkey: x86_64
-        skip_saving: 'true'
-        prefix: /builder/openwrt
+       ccache: 'true'
+       mixkey: 'x86_64'
+       clean:  'false'  # 'false'
+       prefix: /builder/openwrt
     - name: defconfig
       run: |
         cd openwrt
         make distclean
         cat  ./seed/${CONFIG_S} > .config
+        case "${CONFIG_S}" in
+        "Vip"*)        
+        cat  ./seed/comm  >>  .config
+        ;;
+        esac
         make defconfig 
     - name: Download package
-      id: package
       run: |
         cd openwrt
         make download -j50

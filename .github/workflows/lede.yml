@@ -15,20 +15,20 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'branch'
+        description: '选择仓库的分支：'
         default: 'master'
         required: true
         type: choice
-        options: [ master]
+        options: [ openwrt-21.02, master, stable,  openwrt-23.05 ]
       config_s:
-        description: 'config'
+        description: '配置文件'
         default: ' Vip-Super'
         required: true
         type: choice
         options: [  Free-Mini,Vip-Mini,Vip-Super ]
   
       cpu_s:
-        description: 'CPU'
+        description: 'CPU优选'
         required: true
         default: '8'
         type: choice
@@ -39,14 +39,14 @@ on:
           - '8171M'
           
       target:
-        description: 'target'
+        description: '选择要生成的机型：'
         default: 'x86_64'
         required: true
         type: choice
         options: [ x86_64 ]
 
       date_s:
-        description: 'date'
+        description: '固件日期'
         default: 'default'
         required: false
 
@@ -63,6 +63,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-22.04
+    if: github.event.repository.owner.id == github.event.sender.id
     name: lede-${{github.event.inputs.config_s}}-${{github.event.inputs.target}}-${{github.event.inputs.branch}}-${{github.event.inputs.date_s}}
     env:
       CONFIG_S: ${{github.event.inputs.config_s}}
@@ -148,20 +149,9 @@ jobs:
         df -hT $PWD
         git clone --depth 1 https://github.com/coolsnowwolf/lede -b master  openwrt
         git clone --depth 1 ${{ secrets.LEDEURL }} -b master lede
+        
         cp -Rf ./lede/* ./openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
-    - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a
-
-    - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
-    - name: Load custom feeds
-      run: |
-        cd openwrt
-
-         chmod +x ./${DIY_P1_SH}
-         ./$DIY_P1_SH
-         chmod -R 755 .
     - name: Cache
       uses: klever1988/cachewrtbuild@main
       with:
@@ -169,10 +159,22 @@ jobs:
        mixkey: 'x86_64'
        clean:  'false'  # 'false'
        prefix: /builder/openwrt
+    - name: Update feeds
+      run: | 
+          cd openwrt
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+    - name: Update package
+      run: |
+         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
+         cd openwrt
+         
+         chmod +x ./${DIY_P1_SH}
+         ./$DIY_P1_SH
+         chmod -R 755 .
     - name: defconfig
       run: |
         cd openwrt
-        make distclean
         cat  ./seed/${CONFIG_S} > .config
         case "${CONFIG_S}" in
         "Vip"*)        
@@ -203,7 +205,7 @@ jobs:
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate Firmware
       id: compile
-      if: steps.compileopenwrt.outputs.status  == 'success'
+      if: steps.compileopenwrt.outputs.status  == 'success' && !cancelled()
       run: |
          df -h
          cd openwrt 
@@ -220,16 +222,17 @@ jobs:
 
     - name: Organize files
       id: organize
-      if: env.UPLOAD_FIRMWARE == 'true' && steps.compile.outputs.status  == 'success'
+      if: env.UPLOAD_FIRMWARE == 'true' && steps.compile.outputs.status  == 'success' && !cancelled()
       run: |
         cd openwrt/bin/targets/*/*
+        ls -a
         rm -rf packages
         df -h
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate release tag
       id: tag
-      if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
+      if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success' && !cancelled()
       run: |
         echo "release_tag=$(cat openwrt/package/base-files/files/etc/ezopenwrt_version  | cut -d _ -f 1)" >> $GITHUB_OUTPUT
         echo "TAG=$(cat openwrt/package/base-files/files/etc/ezopenwrt_version  | cut -d _ -f 1)" >>$GITHUB_ENV
@@ -240,21 +243,21 @@ jobs:
         
     - name: Upload firmware directory
       uses: actions/upload-artifact@main
-      if: steps.organize.outputs.status == 'success'  && env.UPLOAD_FIRMWARE == 'true'
+      if: steps.organize.outputs.status == 'success'  && env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       with:
         name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-Firmware
         path: ${{ env.FIRMWARE }}
 
     - name: Upload IPK directory
       uses: actions/upload-artifact@main
-      if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success'
+      if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-ipk
         path: ./openwrt/bin/packages/
  
     - name: Upload bin directory
       uses: actions/upload-artifact@main
-      if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success'
+      if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: ${{ env.TAG }}-EzOpWrt-${{ env.TARGET_DEVICE }}-${{ env.REPO_BRANCH }}-bin
         path: ./openwrt/bin/

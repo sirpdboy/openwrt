@@ -164,8 +164,10 @@
 
 ![xm3](doc/kucat1.png)
 ![xm3](doc/kucat2.png)
-![xm3](doc/kucat5.png)
-![xm3](doc/kucat6.png)
+![xm3](doc/kucat3.png)
+![xm3](doc/kucat4.png)
+![xm3](doc/kucat5.jpg)
+![xm3](doc/kucat6.jpg)
 ![xm1](doc/kucatset1.png)
 ![xm2](doc/kucatset2.png)
 

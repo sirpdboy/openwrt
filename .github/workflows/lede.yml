@@ -222,7 +222,7 @@ jobs:
 
     - name: Organize files
       id: organize
-      if: env.UPLOAD_FIRMWARE == 'true' && steps.compile.outputs.status  == 'success' && !cancelled()
+      if: steps.compile.outputs.status  == 'success' && !cancelled()
       run: |
         cd openwrt/bin/targets/*/*
         ls -a

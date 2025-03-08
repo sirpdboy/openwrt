@@ -56,7 +56,7 @@ env:
   DIY_P1_SH: diy
   UPLOAD_BIN_DIR: false
   UPLOAD_IPK_DIR: false
-  UPLOAD_FIRMWARE: false
+  UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 

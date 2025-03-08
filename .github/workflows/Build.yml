@@ -268,9 +268,10 @@ jobs:
         name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
         path: ./openwrt/bin/
 
+    
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v2
-      if: steps.tag.outputs.status == 'success' && !cancelled()
+      if: env.UPLOAD_RELEASE == 'true' &&  steps.tag.outputs.status == 'success' && !cancelled()
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
       with:
@@ -278,16 +279,17 @@ jobs:
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
+
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@v2
       with:
           retain_days: 1
-          keep_minimum_runs: 5
+          keep_minimum_runs: 3
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.3.4
       with:
-          keep_latest: 10
+          keep_latest: 3
           keep_min_download_counts: 1 # Optional parameters
           delete_tags: true
       env:

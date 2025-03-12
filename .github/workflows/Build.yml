@@ -210,6 +210,8 @@ jobs:
          make package/compile -j$(nproc) IGNORE_ERRORS=1 || make package/compile -j72 IGNORE_ERRORS=1
          make package/index
          bash  bakkmod.sh
+         [ -d files/etc/opkg ] || mkdir -p files/etc/opkg
+         [ -f files/etc/opkg/distfeeds.conf ] || curl -fsSL  https://raw.githubusercontent.com/sirpdboy/other/master/patch/distfeeds.conf > ./files/etc/opkg/distfeeds.conf
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate Firmware
       id: compile

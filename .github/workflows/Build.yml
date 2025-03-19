@@ -19,7 +19,7 @@ on:
         default: 'istoreos-24.10'
         required: true
         type: choice
-        options: [ istoreos-22.03, istoreos-23.05, istoreos-24.10 ]
+        options: [ openwrt-24.10, istoreos-24.10 ]
       config_s:
         description: '配置文件'
         default: 'Vip-Super'
@@ -42,7 +42,7 @@ on:
         default: 'x86_64'
         required: true
         type: choice
-        options: [ x86_64, rm2100, xm2100, r2s, r4s, r4se, r5s, r5c ]
+        options: [ x86_64  ]
 
       date_s:
         description: '固件日期'
@@ -51,7 +51,8 @@ on:
     
   
 env:
-  REPO_URL: https://github.com/istoreos/istoreos
+  REPO_OP: https://github.com/openwrt/openwrt
+  REPO_IO: https://github.com/istoreos/istoreos
   FEEDS_CONF: feeds.conf
   DIY_P1_SH: diy
   UPLOAD_BIN_DIR: false
@@ -152,8 +153,14 @@ jobs:
     - name: Clone source code
       working-directory: /builder
       run: |
-        git clone $REPO_URL -b ${{env.REPO_BRANCH}} openwrt
-        git clone ${{ secrets.IOURL }} lede
+      
+        if [[ ${{env.REPO_BRANCH}} == 'openwrt-24.10' ]]; then
+            git clone $REPO_OP -b ${{env.REPO_BRANCH}} openwrt
+            git clone ${{ secrets.OP }} lede
+        else
+            git clone $REPO_IO -b ${{env.REPO_BRANCH}} openwrt
+            git clone ${{ secrets.IOURL }} lede
+        fi
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
         if [[ $DATE_S == 'default' ]]; then
@@ -181,7 +188,7 @@ jobs:
       uses: stupidloud/cachewrtbuild@main
       with:
         ccache: 'true'
-        mixkey: x86-64-${{ env.REPO_BRANCH }}
+        mixkey: ${{ env.CONFIG_S }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}
         skip_saving: 'true'
         prefix: /builder/openwrt
     - name: defconfig

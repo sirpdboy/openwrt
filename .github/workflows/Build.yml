@@ -16,7 +16,7 @@ on:
     inputs:
       branch:
         description: '选择仓库的分支：'
-        default: 'istoreos-24.10'
+        default: 'openwrt-24.10'
         required: true
         type: choice
         options: [ openwrt-24.10, istoreos-24.10 ]

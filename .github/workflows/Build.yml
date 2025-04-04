@@ -158,7 +158,7 @@ jobs:
       
         if [[ ${{env.REPO_BRANCH}} == 'openwrt-24.10' ]]; then
             git clone $REPO_IM -b ${{env.REPO_BRANCH}} openwrt
-            git clone ${{ secrets.OP }} lede
+            git clone ${{ secrets.IOURL }} lede
         elif  [[ ${{env.REPO_BRANCH}} == 'istoreos-24.10' ]]; then
             git clone $REPO_IO -b ${{env.REPO_BRANCH}} openwrt
             git clone ${{ secrets.IOURL }} lede

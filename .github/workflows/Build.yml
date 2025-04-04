@@ -53,6 +53,7 @@ on:
 env:
   REPO_OP: https://github.com/openwrt/openwrt
   REPO_IO: https://github.com/istoreos/istoreos
+  REPO_IM: https://github.com/immortalwrt/immortalwrt
   FEEDS_CONF: feeds.conf
   DIY_P1_SH: diy
   UPLOAD_BIN_DIR: false
@@ -156,12 +157,16 @@ jobs:
       run: |
       
         if [[ ${{env.REPO_BRANCH}} == 'openwrt-24.10' ]]; then
-            git clone $REPO_OP -b ${{env.REPO_BRANCH}} openwrt
+            git clone $REPO_IM -b ${{env.REPO_BRANCH}} openwrt
             git clone ${{ secrets.OP }} lede
-        else
+        elif  [[ ${{env.REPO_BRANCH}} == 'istoreos-24.10' ]]; then
             git clone $REPO_IO -b ${{env.REPO_BRANCH}} openwrt
             git clone ${{ secrets.IOURL }} lede
+        else
+            git clone $REPO_OP -b openwrt-24.10 openwrt
+            git clone ${{ secrets.OP }} lede
         fi
+
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
         if [[ $DATE_S == 'default' ]]; then

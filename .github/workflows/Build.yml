@@ -236,7 +236,7 @@ jobs:
           make json_overview_image_info
           make checksum
          bash buildmd5.sh
-         echo "TAG=$(cat ./package/base-files/files/etc/ezopenwrt_version  | cut -d _ -f 1)" >>$GITHUB_ENV
+         echo "TAG=$(cat ../ezopenwrt_version  | cut -d _ -f 1)" >>$GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Check space usage
       if: (!cancelled())
@@ -254,7 +254,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
       run: |
-        echo "release_tag=$(cat openwrt/package/base-files/files/etc/ezopenwrt_version  | cut -d _ -f 1)" >> $GITHUB_OUTPUT
+        echo "release_tag=$(cat ./ezopenwrt_version  | cut -d _ -f 1)" >> $GITHUB_OUTPUT
         echo -e "\n* The stable source code has been updated." >> release.txt
          [ -e ${{ env.FIRMWARE }}/ver.latest ] && cat ${{ env.FIRMWARE }}/ver.latest  >> release.txt
         sed -i '1i ## Firmware Update Log' release.txt
@@ -293,6 +293,17 @@ jobs:
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
+    - name: Git push assets to "ver" branch
+      run: |
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b ver
+          git add ezopenwrt_version
+          git commit -m "${{ env.TAG }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin ver
+          
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
       continue-on-error: true

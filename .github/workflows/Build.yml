@@ -169,11 +169,7 @@ jobs:
 
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
-        if [[ $DATE_S == 'default' ]]; then
-          echo "DATA=`date +%Y%m%d_%H%M`" >> $GITHUB_ENV
-        else 
-          echo "DATA=$DATE_S" >>$GITHUB_ENV
-        fi
+
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
@@ -236,7 +232,6 @@ jobs:
           make json_overview_image_info
           make checksum
          bash buildmd5.sh
-         echo "TAG=$(cat ../ezopenwrt_version  | cut -d _ -f 1)" >>$GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Check space usage
       if: (!cancelled())
@@ -244,12 +239,19 @@ jobs:
 
     - name: Organize files
       id: organize
-      if: env.UPLOAD_FIRMWARE == 'true' && steps.compile.outputs.status  == 'success'
+      if:   steps.compile.outputs.status  == 'success'
       run: |
-        cd openwrt/bin/targets/*/*
-        rm -rf packages
-        echo "FIRMWARE=$PWD" >> $GITHUB_ENV
-        echo "status=success" >> $GITHUB_OUTPUT
+         . ./ezopenwrt_version
+         if [[ $DATE_S == 'default' ]]; then
+          echo "DATA=$EZDATE" >> $GITHUB_ENV
+         else 
+          echo "DATA=$DATE_S" >>$GITHUB_ENV
+         fi
+         echo "release_tag=$EZVER" >> $GITHUB_OUTPUT
+         cd openwrt/bin/targets/*/*
+         mv -f packages  ../../../packages
+         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
+         echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate release tag
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'

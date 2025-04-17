@@ -150,8 +150,8 @@ jobs:
         sudo apt-get install -y libxml2-dev libarchive-dev libcurl4-openssl-dev
         sudo apt-get clean
         git config --global user.name 'GitHub Actions' && git config --global user.email 'noreply@github.com'
-          sudo timedatectl set-timezone "$TZ"
-          sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        sudo timedatectl set-timezone "$TZ"
+          # sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
     - name: Clone source code
       working-directory: /builder
       run: |
@@ -180,8 +180,6 @@ jobs:
         [ -e $FEEDS_CONF ] && mv -f $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH || true
         cd openwrt
-        #echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
-        #echo "::set-output name=OPENWRTROOT::$(echo $PWD)"
         chmod +x $DIY_P1_SH  || true
          [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH ||  ../$DIY_P1_SH
          chmod -R 755 .
@@ -224,7 +222,6 @@ jobs:
       id: compile
       if: steps.compileopenwrt.outputs.status  == 'success'
       run: |
-         df -h
          cd openwrt 
          rm -rf ./dl
           make package/install -j$(nproc) || make package/install -j1 V=s
@@ -245,7 +242,7 @@ jobs:
          if [[ $DATE_S == 'default' ]]; then
           echo "DATA=$DATE_S" >> $GITHUB_ENV
          else 
-          echo "DATA=$EZDATE" >>$GITHUB_ENV
+          echo "DATA=`echo  $(date -d "$EZ_DATE" "+%F_%H%M") `" >>$GITHUB_ENV
          fi
          echo "release_tag=$EZVER" >> $GITHUB_OUTPUT
          cd openwrt/bin/targets/*/*

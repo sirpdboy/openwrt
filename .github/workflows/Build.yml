@@ -238,26 +238,28 @@ jobs:
       id: organize
       if:   steps.compile.outputs.status  == 'success'
       run: |
-         . /builder/ezopenwrt_version  || true
-         if [[ $DATE_S == 'default' ]]; then
-          echo "DATA=$DATE_S" >> $GITHUB_ENV
-         else 
-          echo "DATA=`echo  $(date -d "$EZ_DATE" "+%F_%H%M") `" >>$GITHUB_ENV
-         fi
-         echo "release_tag=$EZVER" >> $GITHUB_OUTPUT
          cd openwrt/bin/targets/*/*
          mv -f packages  ../../../packages
          echo "FIRMWARE=$PWD" >> $GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate release tag
+      working-directory: /builder
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
       run: |
-        echo -e "\n* The stable source code has been updated." >> release.txt
+         . ../ezopenwrt_version  || true
+         if [[ $DATE_S == 'default' ]]; then
+            echo "DATA=$DATE_S" >> $GITHUB_ENV
+         else 
+             echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
+         fi
+         echo "release_tag=$EZVER" >> $GITHUB_OUTPUT
+         echo "TAG=$EZVER" >> $GITHUB_ENV
+         echo -e "\n* The stable source code has been updated." >> release.txt
          [ -e ${{ env.FIRMWARE }}/ver.latest ] && cat ${{ env.FIRMWARE }}/ver.latest  >> release.txt
-        sed -i '1i ## Firmware Update Log' release.txt
-        touch release.txt
-        echo "status=success" >> $GITHUB_OUTPUT
+         sed -i '1i ## Firmware Update Log' release.txt
+         touch release.txt
+         echo "status=success" >> $GITHUB_OUTPUT
         
     - name: Upload firmware directory
       uses: actions/upload-artifact@main
@@ -270,14 +272,14 @@ jobs:
       uses: actions/upload-artifact@main
       if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
+        name: ${{ env.DATA }}-${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
         path: ./openwrt/bin/packages/
  
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
+        name: ${{ env.DATA }}-${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
         path: ./openwrt/bin/
 
     

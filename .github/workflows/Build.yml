@@ -251,14 +251,13 @@ jobs:
          echo "FIRMWARE=$PWD" >> $GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Generate release tag
-      working-directory: /builder
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
       run: |
+         touch release.txt
          echo -e "\n* The stable source code has been updated." >> release.txt
          [ -e ${{ env.FIRMWARE }}/ver.latest ] && cat ${{ env.FIRMWARE }}/ver.latest  >> release.txt
          sed -i '1i ## Firmware Update Log' release.txt
-         touch release.txt
          echo "status=success" >> $GITHUB_OUTPUT
         
     - name: Upload firmware directory

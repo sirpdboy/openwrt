@@ -229,6 +229,13 @@ jobs:
           make json_overview_image_info
           make checksum
          bash buildmd5.sh
+         . /builder/ezopenwrt_version
+         if [[ $DATE_S == 'default' ]]; then
+             echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
+         else 
+            echo "DATA=$DATE_S" >> $GITHUB_ENV
+         fi
+         echo "TAG=$EZVER" >> $GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
     - name: Check space usage
       if: (!cancelled())
@@ -247,14 +254,6 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
       run: |
-         . ../ezopenwrt_version  || true
-         if [[ $DATE_S == 'default' ]]; then
-            echo "DATA=$DATE_S" >> $GITHUB_ENV
-         else 
-             echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
-         fi
-         echo "release_tag=$EZVER" >> $GITHUB_OUTPUT
-         echo "TAG=$EZVER" >> $GITHUB_ENV
          echo -e "\n* The stable source code has been updated." >> release.txt
          [ -e ${{ env.FIRMWARE }}/ver.latest ] && cat ${{ env.FIRMWARE }}/ver.latest  >> release.txt
          sed -i '1i ## Firmware Update Log' release.txt
@@ -265,21 +264,21 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && env.UPLOAD_FIRMWARE == 'true'
       with:
-        name: ${{ env.DATA }}-${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-Firmware
+        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-Firmware
         path: ${{ env.FIRMWARE }}
 
     - name: Upload IPK directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.DATA }}-${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
+        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
         path: ./openwrt/bin/packages/
  
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.DATA }}-${{ env.TAG }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
+        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
         path: ./openwrt/bin/
 
     
@@ -289,7 +288,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
       with:
-        tag_name: ${{ steps.tag.outputs.release_tag }}
+        tag_name: ${{ env.TAG }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
@@ -300,7 +299,7 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b ver
           git add /builder/ezopenwrt_version
-          git commit -m "${{ env.TAG }}"
+          git commit -m "${{ env.DATA }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin ver
           

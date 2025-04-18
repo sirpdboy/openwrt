@@ -229,7 +229,7 @@ jobs:
           make json_overview_image_info
           make checksum
          bash buildmd5.sh
-         . /builder/ezopenwrt_version
+         .  $GITHUB_WORKSPACE/ezopenwrt_version
          if [[ $DATE_S == 'default' ]]; then
              echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
          else 
@@ -298,7 +298,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b ver
-          git add /builder/ezopenwrt_version
+          git add  $GITHUB_WORKSPACE/ezopenwrt_version
           git commit -m "${{ env.DATA }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin ver
@@ -314,7 +314,7 @@ jobs:
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@master
       continue-on-error: true
-      if: env.UPLOAD_FIRMWARE_FOR_RELEASE == 'true' && !cancelled()
+      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         keep_latest: 15
         delete_tags: true

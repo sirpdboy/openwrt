@@ -177,7 +177,7 @@ jobs:
     - name: Load custom feeds
       working-directory: /builder
       run: |
-        [ -e $FEEDS_CONF ] && mv -f $FEEDS_CONF openwrt/feeds.conf.default
+        # [ -e $FEEDS_CONF ] && mv -f $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH || true
         cd openwrt
         chmod +x $DIY_P1_SH  || true
@@ -231,7 +231,7 @@ jobs:
          bash buildmd5.sh
          .  $GITHUB_WORKSPACE/ezopenwrt_version
          if [[ $DATE_S == 'default' ]]; then
-              echo "DATA=`date +%Y%m%d_%H -d +"5"hour`" >> $GITHUB_ENV
+              echo "DATA=`date +%Y%m%d_%H -d +"12"hour`" >> $GITHUB_ENV
               # echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
          else 
             echo "DATA=$DATE_S" >> $GITHUB_ENV
@@ -264,21 +264,21 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && env.UPLOAD_FIRMWARE == 'true'
       with:
-        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-Firmware
+        name: ${{ env.DATA }}-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-Firmware
         path: ${{ env.FIRMWARE }}
 
     - name: Upload IPK directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_IPK_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
+        name: ${{ env.DATA }}-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-ipk
         path: ./openwrt/bin/packages/
  
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: env.UPLOAD_BIN_DIR == 'true' && steps.organize.outputs.status == 'success'
       with:
-        name: ${{ env.DATA }}-EzOpWrt-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
+        name: ${{ env.DATA }}-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-bin
         path: ./openwrt/bin/
 
     

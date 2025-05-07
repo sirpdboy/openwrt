@@ -1,0 +1,31 @@
+name: Delete Old Workflows
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  Delete-Workflow-Archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete Workflow Runs1
+        id: workflow
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          retain_days: 10
+
+      - name: Delete workflow runs2
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          retain_days: 10
+          keep_minimum_runs: 1
+          
+      - name: Delete workflow runs3
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 10

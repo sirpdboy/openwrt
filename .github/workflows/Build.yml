@@ -327,7 +327,7 @@ jobs:
       continue-on-error: true
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        retain_days: 30
+        retain_days: 0
         keep_minimum_runs: 0
 
     - name: Remove old Releases

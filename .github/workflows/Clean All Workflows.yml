@@ -1,0 +1,31 @@
+name: Clean All Workflows
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete all workflow runs
+        uses: actions/github-script@v6
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          script: |
+            // 获取所有工作流
+            const workflows = await github.rest.actions.listWorkflowsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+            
+            // 遍历删除每个工作流的运行记录
+            for (const workflow of workflows.data.workflows) {
+              await github.rest.actions.deleteWorkflowRun({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: workflow.id
+              });
+            }

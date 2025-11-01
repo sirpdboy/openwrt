@@ -100,6 +100,33 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
+## 2025年11月1日 最新更新【SIRPDBOY独家优化】
+- 【小技巧】 KUCAT主题桌面壁纸启用方法：【系统】->【进阶设置】->【KuCat主题设置】->颜色配置方案列表 选择【启用壁纸】 保存即可！ (注意【启用配色方案】最前面的启用方案才是当前使用颜色方案）
+
+- VIP大全23.05分支PLUS版6.12内核/应用商店/docker/2G分区
+- VIP旁路由23.05分支BYPASS版6.12内核/应用商店/docker/2G分区
+- VIP精简24.10分支MINI版6.6内核/应用商店/docker/2G分区
+- VIP极致24.10分支SUPER版6.6内核/无应用商店/无docker/2G分区
+- VIP R2S 版23.05分支6.12内核 /无应用商店/docker /2G分区
+- VIP R4S 版23.05分支6.12内核 /无应用商店/docker/2G分区
+- VIP R4SE 版23.05分支6.12内核/无应用商店/docker/2G分区
+- VIP R5C 版23.05分支6.12内核/无应用商店/docker/2G分区
+- VIP R5S 版23.05分支6.12内核/无应用商店/docker/2G分区
+- VIP R6S 版23.05分支6.12内核/无应用商店/docker/2G分区
+- VIP R6C 版23.05分支6.12内核/无应用商店/docker/2G分区
+
+## 在上一版本的基础上优化更新如下：
+
+- 1. 独家升级KUCAT主题2.7.3版，优化OPENCLASH显示效果。
+- 2. 升级LUCI-APP-DDNS-GO 1.6.3版本,JS版增加重置密码和更新功能。
+- 3. 独家升级luci-app-lucky 3.0.1版,适配OPENWRT 24.10的JS版本增加重置密码功能。
+- 4. 升级bandix流量监控0.7.3版,解决在线不准确增加实时连接监控。
+- 5. 升级任务设置2.3.1版，修复OPENWRT 24.10下开机启动任务无效问题。
+
+- 【提醒】在执行在线升级刷机是卡在“别急，先准备一下”时：在SSH或者TTYD终端中执行修复代码：
+
+ curl -fsSL  https://raw.githubusercontent.com/sirpdboy/other/master/patch/ota.htm  > /usr/lib/lua/luci/view/admin_system/ota.htm 
+
 ## 2025年5月1日 更新  进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
 - VIP大全23.05分支PLUS版6.6内核/应用商店/docker/2G分区
 - VIP旁路由23.05分支MINI版6.6内核/应用商店/docker/2G分区
@@ -150,15 +177,15 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
-- 【在线更新】VIP极致SUPER版下载地址：https://github.com/sirpdboy/openwrt/releases
+- 【在线更新】VIP极致SUPER版下载地址：[https://github.com/sirpdboy/openwrt/releases](https://github.com/sirpdboy/openwrt/releases)
   
-- 【123网盘工具下载】： https://www.123pan.com/s/dS5A-6qxqd.html  提取码: qnm4
+- 【123网盘工具下载】：[https://www.123865.com/s/dS5A-n1Kqd?pwd=YuYa#](https://www.123865.com/s/dS5A-n1Kqd?pwd=YuYa#)
 
 - 【123网盘固件下载】主下载:  https://www.123865.com/s/dS5A-D5Nqd 提取码:B2HS   备份下载： https://www.123684.com/s/dS5A-D5Nqd 提取码:B2HS
 
--  Telegram聊天群组: https://t.me/joinchat/RV6mxIxZJVDByibQ
+-  Telegram聊天群组: [https://t.me/joinchat/RV6mxIxZJVDByibQ](https://t.me/joinchat/RV6mxIxZJVDByibQ)
 
--  加入固件电报群：https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ 
+-  加入固件电报群：[https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ ](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ )
 
 ## 固件界面
 

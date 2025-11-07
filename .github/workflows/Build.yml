@@ -16,10 +16,10 @@ on:
     inputs:
       branch:
         description: '选择仓库的分支：'
-        default: 'openwrt-24.10'
+        default: 'master'
         required: true
         type: choice
-        options: [ openwrt-24.10, istoreos-24.10,op2410 ]
+        options: [ openwrt-24.10, istoreos-24.10 ,master ]
       config_s:
         description: '配置文件'
         default: 'Vip-Super'
@@ -156,15 +156,12 @@ jobs:
       working-directory: /builder
       run: |
       
-        if [[ ${{env.REPO_BRANCH}} == 'openwrt-24.10' ]]; then
-            git clone $REPO_IM -b ${{env.REPO_BRANCH}} openwrt
-            git clone ${{ secrets.IOURL }} lede
-        elif  [[ ${{env.REPO_BRANCH}} == 'istoreos-24.10' ]]; then
+        if  [[ ${{env.REPO_BRANCH}} == 'istoreos-24.10' ]]; then
             git clone $REPO_IO -b ${{env.REPO_BRANCH}} openwrt
             git clone ${{ secrets.IOURL }} lede
         else
-            git clone $REPO_OP -b openwrt-24.10 openwrt
-            git clone ${{ secrets.OP }} lede
+            git clone $REPO_IM -b ${{env.REPO_BRANCH}} openwrt
+            git clone ${{ secrets.IOURL }} lede
         fi
         cp -Rf ./lede/* openwrt
         ln -sf /builder/openwrt $GITHUB_WORKSPACE/openwrt
@@ -183,7 +180,7 @@ jobs:
         chmod +x $DIY_P1_SH  || true
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
         echo "::set-output name=OPENWRTROOT::$(echo $PWD)"
-         [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH ||  ../$DIY_P1_SH
+         [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH  >/dev/null 2>&1 ||  ../$DIY_P1_SH >/dev/null 2>&1
          chmod -R 755 .
     - name: Cache
       id: cache
@@ -218,7 +215,7 @@ jobs:
          make diffconfig
          make package/compile -j$(nproc) IGNORE_ERRORS=1 || make package/compile -j72 IGNORE_ERRORS=1
          make package/index
-         bash  bakkmod.sh
+         bash  bakkmod.sh >/dev/null 2>&1
          cd $OPENWRTROOT/bin/packages/*
          PLATFORM=$(basename `pwd`)
          echo "PLATFORM=$PLATFORM" >> $GITHUB_ENV
@@ -249,7 +246,7 @@ jobs:
           make target/install -j$(nproc) || make target/install -j1 V=s
           make json_overview_image_info
           make checksum
-         bash buildmd5.sh
+         bash buildmd5.sh >/dev/null 2>&1
          .  $GITHUB_WORKSPACE/ezopenwrt_version
          if [[ $DATE_S == 'default' ]]; then
               echo "DATA=`date +%Y%m%d_%H -d +"12"hour`" >> $GITHUB_ENV

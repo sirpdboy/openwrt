@@ -301,14 +301,17 @@ jobs:
 
     
     - name: Upload firmware to release
-      uses: softprops/action-gh-release@v2
+      uses: ncipollo/release-action@v1
       if: env.UPLOAD_RELEASE == 'true' &&  steps.tag.outputs.status == 'success' && !cancelled()
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
       with:
-        tag_name: ${{ env.TAG }}
+        name: ${{ env.TAG }}
+        allowUpdates: true
+        tag: ${{ env.TAG }}
+        commit: master
+        replacesArtifacts: true
+        token: ${{ secrets.GITHUB_TOKEN }}
         body_path: release.txt
-        files: ${{ env.FIRMWARE }}/*
+        artifacts: ${{ env.FIRMWARE }}/*
 
     - name: Git push assets to "ver" branch
       run: |

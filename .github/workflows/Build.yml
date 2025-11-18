@@ -273,7 +273,7 @@ jobs:
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'
       run: |
          touch release.txt
-         echo -e "\n* The stable source code has been updated." >> release.txt
+         echo -e "\n* ### 📒 固件信息" >> release.txt
          [ -e ${{ env.FIRMWARE }}/ver.latest ] && cat ${{ env.FIRMWARE }}/ver.latest  >> release.txt
          sed -i '1i ## Firmware Update Log' release.txt
          echo "status=success" >> $GITHUB_OUTPUT
@@ -307,10 +307,8 @@ jobs:
         name: ${{ env.TAG }}
         allowUpdates: true
         tag: ${{ env.TAG }}
-        commit: master
-        replacesArtifacts: true
-        token: ${{ secrets.GITHUB_TOKEN }}
-        body_path: release.txt
+        token: ${{ secrets.GITHUB_TOKEN  }}
+        bodyFile: release.txt
         artifacts: ${{ env.FIRMWARE }}/*
 
     - name: Git push assets to "ver" branch

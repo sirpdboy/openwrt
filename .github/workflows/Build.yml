@@ -22,10 +22,10 @@ on:
         options: [ openwrt-24.10, istoreos-24.10 ,master ]
       config_s:
         description: '配置文件'
-        default: 'Vip-Super'
+        default: 'Vip_Super'
         required: true
         type: choice
-        options: [ Vip-Mini, Vip-Super ]
+        options: [ Vip_Mini, Vip_Super ]
       cpu_s:
         description: 'CPU优选'
         required: true

@@ -179,7 +179,6 @@ jobs:
         cd openwrt
         chmod +x $DIY_P1_SH  || true
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
-        echo "::set-output name=OPENWRTROOT::$(echo $PWD)"
          [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH  >/dev/null 2>&1 ||  ../$DIY_P1_SH >/dev/null 2>&1
          chmod -R 755 .
     - name: Cache

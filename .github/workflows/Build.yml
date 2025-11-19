@@ -302,7 +302,7 @@ jobs:
     
     - name: Upload firmware to release
       uses: ncipollo/release-action@v1
-      if: env.UPLOAD_RELEASE == 'true' &&  steps.tag.outputs.status == 'success' && !cancelled()
+      if: env.UPLOAD_RELEASE == 'true'
       with:
         name: ${{ env.TAG }}
         allowUpdates: true

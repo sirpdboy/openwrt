@@ -19,7 +19,7 @@ on:
         default: 'master'
         required: true
         type: choice
-        options: [ openwrt-24.10, istoreos-24.10 ,master ]
+        options: [ openwrt-24.10, openwrt-25.12 ,master ]
       config_s:
         description: '配置文件'
         default: 'Vip_Super'

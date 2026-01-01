@@ -92,7 +92,7 @@
 
 - 2022年3月20日之前【固件IP】：192.168.1.1  密码： password或者 密码空
 - 2022年3月20日之后【固件IP】：192.168.8.1  密码无 
-- VIP版固件【IP】：192.168.8.1  密码无 
+- VIP版固件【IP】：192.168.10.1  密码无 
 
 ## 更新记录
 
@@ -100,72 +100,30 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
+## 2026年1月1日 最新更新【SIRPDBOY独家优化】
+- 【小技巧】二步实现扩容升级固件：先用【分区扩容】扩容mnt分区（用于存储解压固件要大于4G）->【在线升级】扩展DD模式 刷机即可。【如果还不会来TG群申请指导】
+
+- 【唯一TG联系人: https://t.me/sirpdboy 】
+- 【唯一TG固件更新记录分享频道: https://t.me/sirpdboy_openwrt 】
+- 【唯一TG聊天交流群: https://t.me/joinchat/RV6mxIxZJVDByibQ 】
+- 【唯一GITHUB源码站: https://www.github.com/sirpdboy 】
+
+## 在上一版本基础上，新更新内容如下：
+
+- 1. 升级U盘不自动挂载，共享重启掉挂载以及DOCKER外网不能访问等问题！
+- 2. 升级【扩容分区】v2.0 JS版，更智能，更方便，解决一些硬盘分区不能识别的问题。
+- 3. 升级【在线升级】，优化点击等待刷新时间过长和国内不能下载等问题，扩容分区大小可选4G-100G。
+- 4. 升级【酷猫主题】KUCATV3.2.5版，重新优化菜单颜色布局，追求极致丝滑养眼，深度嵌合openwrt，打造最佳体感主题.
+- 5. 升级【进阶设置】，针对https时uhttpd偶尔非正常退出，导致无法进WEB页问题，自动启用监控UHTTPD服务。不需要的请高级设置中取消。
+- 6. 升级上网【时间控制】V3.2 JS版本，带日志和加回普通管控功能，强力管控加入立即断开连接。全面支持IPV6、MAC和192.168.10.1-192.168.10.254范围格式！
+- 7. 升级【设置向导】v2.0 JS小白版本，解决DNS必须手动指定问题，增加旁路由自动获取IP功能，以解决某些路由旁路手动指定IP不行的问题，设置完自动转向更美观更智能更方便！
+
+- 【注意】根据虚拟机和实际情况出发，WAN口绑定方案：单网口时eth0为LAN口，多网口最后一个口为WAN其余是LAN口
+- 【问题】有问题反馈，请提供截图、详细日志和可重现操作流程，否则一率不回复不处理
+- 【公告】欢迎定制各种特殊驱动固件和特殊需要插件以及各种路由器固件。
+
 ## 2025年11月1日 最新更新【SIRPDBOY独家优化】
 - 【小技巧】 KUCAT主题桌面壁纸启用方法：【系统】->【进阶设置】->【KuCat主题设置】->颜色配置方案列表 选择【启用壁纸】 保存即可！ (注意【启用配色方案】最前面的启用方案才是当前使用颜色方案）
-
-- VIP大全23.05分支PLUS版6.12内核/应用商店/docker/2G分区
-- VIP旁路由23.05分支BYPASS版6.12内核/应用商店/docker/2G分区
-- VIP精简24.10分支MINI版6.6内核/应用商店/docker/2G分区
-- VIP极致24.10分支SUPER版6.6内核/无应用商店/无docker/2G分区
-- VIP R2S 版23.05分支6.12内核 /无应用商店/docker /2G分区
-- VIP R4S 版23.05分支6.12内核 /无应用商店/docker/2G分区
-- VIP R4SE 版23.05分支6.12内核/无应用商店/docker/2G分区
-- VIP R5C 版23.05分支6.12内核/无应用商店/docker/2G分区
-- VIP R5S 版23.05分支6.12内核/无应用商店/docker/2G分区
-- VIP R6S 版23.05分支6.12内核/无应用商店/docker/2G分区
-- VIP R6C 版23.05分支6.12内核/无应用商店/docker/2G分区
-
-## 在上一版本的基础上优化更新如下：
-
-- 1. 独家升级KUCAT主题2.7.3版，优化OPENCLASH显示效果。
-- 2. 升级LUCI-APP-DDNS-GO 1.6.3版本,JS版增加重置密码和更新功能。
-- 3. 独家升级luci-app-lucky 3.0.1版,适配OPENWRT 24.10的JS版本增加重置密码功能。
-- 4. 升级bandix流量监控0.7.3版,解决在线不准确增加实时连接监控。
-- 5. 升级任务设置2.3.1版，修复OPENWRT 24.10下开机启动任务无效问题。
-
-- 【提醒】在执行在线升级刷机是卡在“别急，先准备一下”时：在SSH或者TTYD终端中执行修复代码：
-
- curl -fsSL  https://raw.githubusercontent.com/sirpdboy/other/master/patch/ota.htm  > /usr/lib/lua/luci/view/admin_system/ota.htm 
-
-## 2025年5月1日 更新  进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
-- VIP大全23.05分支PLUS版6.6内核/应用商店/docker/2G分区
-- VIP旁路由23.05分支MINI版6.6内核/应用商店/docker/2G分区
-- VIP精简24.10分支MINI版6.6内核/应用商店/docker/2G分区
-- VIP极致24.10分支SUPER版6.6内核/无应用商店/无docker/2G分区
-- VIP R2S 版23.05分支6.6内核 /无应用商店/docker /2G分区
-- VIP R4S 版23.05分支6.6内核 /无应用商店/docker/2G分区
-- VIP R4SE 版23.05分支6.6内核/无应用商店/docker/2G分区
-- VIP R5C 版23.05分支6.6内核/无应用商店/docker/2G分区
-- VIP R5S 版23.05分支6.6内核/无应用商店/docker/2G分区
-- VIP R6S 版23.05分支6.6内核/无应用商店/docker/2G分区
-- VIP R6C 版23.05分支6.6内核/无应用商店/docker/2G分区
-
-##在上一版本的基础上优化更新如下：
-- 1.升级【adguardhome】采用全功能版，修正XZ有时候解压不成功等问题。
-- 2.升级 网易云，MINI带网易云。
-- 3.升级 显卡驱动，默认集成intel和AMD显卡。
-- 4.解决目前已知所有问题，更多细节优化请自行刷机体验。
-
-## 2025年2月9日 更新  进入本群固件交流群：https://t.me/+RV6mxIxZJVDByibQ   【与更多好伙伴一起聊天侃地】【sirpdboy独家优化】
-- VIP大全23.05分支PLUS版6.6内核/应用商店/docker/2G分区（可进阶设置-加载插件-加载 应用商店、docker和所有驱动）/2G
-- VIP精简istoreos-23.05分支MINI版5.15内核（可进阶设置-加载插件-加载 应用商店、docker和所有驱动）/2G
-- VIP旁路21.02分支BYPASS版5.4内核（可进阶设置-加载插件-加载 应用商店、docker和所有驱动）/2G
-- VIP极致23.05分支SUPER版6.6内核（可进阶设置-加载插件-加载 应用商店、docker和所有驱动）/2G
-- VIP R2S 版23.05分支6.1内核 /应用商店/docker /2G
-- VIP R4S 版23.05分支6.1内核 /应用商店/docker/2G
-- VIP R4SE 版23.05分支6.1内核/应用商店/docker/2G
-- VIP R5C 版23.05分支6.1内核/应用商店/docker/2G
-- VIP R5S 版23.05分支6.1内核/应用商店/docker/2G
-
-## 在上一版本的基础上优化更新如下：
-
-- 1. 普通版的三个版本更新停止，开放VIP极致SUPER版本在线更新。
-- 2. 所有版本增加在线升级插件 ，如果不能在线更新请设置好翻墙插件再更新。
-- 3. 极致版增加wman3和多拨插件，内核5.15和6.6交替更新。
-- 4. 修复极致版 进阶设置，主题设置中上传页面依赖错误问题。 
-- 5. 升级DDNS-GO到5.8.1版本。
-- 6. 更多功能自行体验。
-
 
 - 【插件数排序】：【PLUS大全】集成插件最多  >【BYPASS旁路】常用插+不常用插件+不带多拨负载均衡  >【MINI精典】常用插件+多拨负载均衡  >【SUPER极致】常用插件不带多拨  
 - 【VIP版】：带商店ISTORE ， 带有线和无线驱动可后台SSH装载所有驱动【在SSH后台菜单10号功能装入】， 带DOCKER【在SSH后台菜单11号功能装入】
@@ -179,9 +137,9 @@
 
 - 【在线更新】VIP极致SUPER版下载地址：[https://github.com/sirpdboy/openwrt/releases](https://github.com/sirpdboy/openwrt/releases)
   
-- 【123网盘工具下载】：[https://www.123865.com/s/dS5A-n1Kqd?pwd=YuYa#](https://www.123865.com/s/dS5A-n1Kqd?pwd=YuYa#)
+- 【123网盘工具下载】： https://www.123865.com/s/dS5A-XSKqd?pwd=SeI8#
 
-- 【123网盘固件下载】主下载:  https://www.123865.com/s/dS5A-D5Nqd 提取码:B2HS   备份下载： https://www.123684.com/s/dS5A-D5Nqd 提取码:B2HS
+- 【123网盘固件下载】主下载: https://www.123865.com/s/dS5A-PSKqd?pwd=HGX8#
 
 -  Telegram聊天群组: [https://t.me/joinchat/RV6mxIxZJVDByibQ](https://t.me/joinchat/RV6mxIxZJVDByibQ)
 

@@ -16,7 +16,7 @@ on:
     inputs:
       branch:
         description: '选择仓库的分支：'
-        default: 'master'
+        default: 'openwrt-24.10'
         required: true
         type: choice
         options: [ openwrt-24.10, openwrt-25.12 ,master ]

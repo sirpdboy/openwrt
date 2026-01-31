@@ -80,7 +80,7 @@ jobs:
         sudo timedatectl set-timezone 'Asia/Shanghai'
         git config --global user.name 'actions'
         git config --global user.email 'action@github.com'
-        echo build_dir="/builder" >> "$GITHUB_ENV"
+        echo workdir="/builder" >> "$GITHUB_ENV"
     
     - name: Free disk space
       uses: sirpdboy/actions@free-disk
@@ -126,20 +126,12 @@ jobs:
       working-directory: /builder
       run: |
         # [ -e $FEEDS_CONF ] && mv -f $FEEDS_CONF openwrt/feeds.conf.default
-        chmod +x $DIY_P1_SH || true
         cd openwrt
-        chmod +x $DIY_P1_SH  || true
+        chmod +x ../$DIY_P1_SH $DIY_P1_SH  || true
         echo "OPENWRTROOT=$PWD" >> $GITHUB_ENV
          [ -e $DIY_P1_SH ] &&  ./$DIY_P1_SH  >/dev/null 2>&1 ||  ../$DIY_P1_SH >/dev/null 2>&1
          chmod -R 755 .
-    - name: Cache
-      id: cache
-      uses: stupidloud/cachewrtbuild@main
-      with:
-        ccache: 'true'
-        mixkey: ${{ env.CONFIG_S }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}
-        skip_saving: 'true'
-        prefix: /builder/openwrt
+
     - name: defconfig
       run: |
         cd openwrt
@@ -218,6 +210,15 @@ jobs:
          mv -f packages  ../../../packages
          echo "FIRMWARE=$PWD" >> $GITHUB_ENV
          echo "status=success" >> $GITHUB_OUTPUT
+
+         mkdir -p /builder/assets
+         gzip -dc EzOpWrt*.gz > "/builder/assets/ezopwrt.img"
+    - name: Build ISO
+      uses: sirpdboy/openwrt-installer-iso@main
+      with:
+        INPUT_IMG: "/builder/assets/ezopwrt.img"
+        OUTPUT_DIR: "${{ env.FIRMWARE }}"
+        OUTPUT_ISO_NAME: "${{ env.DATA }}-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-installer.iso"
     - name: Generate release tag
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'

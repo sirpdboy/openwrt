@@ -191,7 +191,7 @@ jobs:
          bash buildmd5.sh >/dev/null 2>&1
          .  $GITHUB_WORKSPACE/ezopenwrt_version
          if [[ $DATE_S == 'default' ]]; then
-              echo "DATA=`date +%Y%m%d_%H -d +"12"hour`" >> $GITHUB_ENV
+              echo "DATA=$EZDATE" >> $GITHUB_ENV
               # echo "DATA=`echo  $(date -d "$EZDATE" "+%F_%H") `" >>$GITHUB_ENV
          else 
             echo "DATA=$DATE_S" >> $GITHUB_ENV

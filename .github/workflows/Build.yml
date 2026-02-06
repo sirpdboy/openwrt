@@ -214,11 +214,11 @@ jobs:
          mkdir -p /builder/assets
          gzip -dc EzOpWrt*.gz > "/builder/assets/ezopwrt.img"
     - name: Build ISO
-      uses: sirpdboy/openwrt-installer-iso@main
+      uses: sirpdboy/openwrt-installer-iso@v2
       with:
         INPUT_IMG: "/builder/assets/ezopwrt.img"
         OUTPUT_DIR: "${{ env.FIRMWARE }}"
-        OUTPUT_ISO_NAME: "${{ env.DATA }}-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-installer.iso"
+        OUTPUT_ISO_NAME: "EzOpWrt-${{ env.TAG }}-${{env.TARGET_DEVICE}}-${{env.REPO_BRANCH}}-installer.iso"
     - name: Generate release tag
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status  == 'success'

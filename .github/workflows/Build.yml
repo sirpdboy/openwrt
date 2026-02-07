@@ -78,8 +78,8 @@ jobs:
     - name: Setup variables
       run: |
         sudo timedatectl set-timezone 'Asia/Shanghai'
-        git config --global user.name 'actions'
-        git config --global user.email 'action@github.com'
+        #git config --global user.name 'actions'
+        #git config --global user.email 'action@github.com'
         echo workdir="/builder" >> "$GITHUB_ENV"
     
     - name: Free disk space

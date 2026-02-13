@@ -1,9 +1,11 @@
 ## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
-###  【关于固件BUG说明】固件内核和依赖不断更新升级，编译也是不断纠错和进步之中，新固件会有新插件、也会加入新功能、也许会有新问题，但总之要相信，代码的升级，总是解决前面的问题才会更新，一切都是在朝前进，有问题慢慢来，别急，总有解决方法 。也许本人不是最会处理BUG的编译者，也不是能解决所有BUG的大神，但肯定是最用心来编译固件的编译者。因为每一次更新编译，本人都会不断尝试与改进，加入新功能解决旧问题，方便使用和好用的固件一直是本人编译固件的崇旨。在感谢所有支持本人的好伙伴们！只是本人就不明白为什么 在恩山论坛上有人故意抹黑说：加入VIP群说有BUG就被踢了，此事纯属造谣，在VIP群的所有发电爱好者都可以为本人做证，到目前VIP群还没有踢过人，群众的眼睛是雪亮的，固件好不好用，用不用心编译大家也可以从我发布的固件中体会出来。清者自清！本人问心无愧！！
+### 2026软路由刷机调试扩容升级教程：
+- bilibili【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
+- [https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6](https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6)
 
-
-- 请尽量按月购买。杜绝跑路风险。机场跑路无法控制，只能控制自己的手，如果你按年付也无问题，请在使用一段时间有充分信任之后再决定。
+- youtube【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
+- [https://youtu.be/CG3J9NpTHc0?si=9H_8VoybYtAudMfd](https://youtu.be/CG3J9NpTHc0?si=9H_8VoybYtAudMfd)
 
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 
@@ -100,6 +102,49 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
+## 2026年2月14日 最新更新【SIRPDBOY独家优化】
+- 【小技巧】二步实现扩容升级固件：先用【分区扩容】扩容mnt分区（用于存储解压固件要大于4G）->【在线升级】扩展DD模式 刷机即可。【如果还不会来TG群申请指导】
+
+- 【唯一TG联系人: https://t.me/sirpdboy 】
+- 【唯一TG固件更新记录分享频道: https://t.me/sirpdboy_openwrt 】
+- 【唯一TG聊天交流群: https://t.me/joinchat/RV6mxIxZJVDByibQ 】
+- 【唯一GITHUB源码站: https://www.github.com/sirpdboy 】
+
+## 在上一版本基础上，新更新内容如下：
+- 1. 升级PASSWALL到最新版本，解决订阅版本无备注会乱码等问题。
+- 2. 升级kucat主题 v3.2.8 版，解决上传图片文件名不能有空格问题，适配bandix和passwall新版本新窗口显示异常问题。
+- 3. 升级酷猫主题（kucat-config）设置工具 v2.1.7 版，修复某些LUCI版本，保存设置不生效和上传背景文件不行等问题。
+- 4. 升级在线升级插件，增加自动升级扩容到系统全盘功能，尽力优化国内下载速度及卡顿现象，如果太慢建议用科学更新。
+- 5. 适配最新源码系统，解决新刷机系统不能SSH登录固件的问题，修复更新源中一个链接无效问题。
+- 6. 升级ISO打包方法，缩小压缩包,修复刷机代码提示特定情况不合理等问题。
+- 【注意】根据虚拟机和实际情况出发，WAN口绑定方案：单网口时eth0为LAN口，多网口最后一个口为WAN其余是LAN口
+
+- 【问题】有问题反馈，请提供截图、详细日志和可重现操作流程，否则一率不回复不处理
+- 【公告】欢迎定制各种特殊驱动固件和特殊需要插件以及各种路由器固件。
+
+## 2026年2月1日 最新更新【SIRPDBOY独家优化】
+- 【小技巧】二步实现扩容升级固件：先用【分区扩容】扩容mnt分区（用于存储解压固件要大于4G）->【在线升级】扩展DD模式 刷机即可。【如果还不会来TG群申请指导】
+
+- 【唯一TG联系人: https://t.me/sirpdboy 】
+- 【唯一TG固件更新记录分享频道: https://t.me/sirpdboy_openwrt 】
+- 【唯一TG聊天交流群: https://t.me/joinchat/RV6mxIxZJVDByibQ 】
+- 【唯一GITHUB源码站: https://www.github.com/sirpdboy 】
+
+## 在上一版本基础上，新更新内容如下：
+- 1. 升级设置向导v2.1.3，加回强制转发和优化IPV6设置,修复防火墙多区域设置BUG。
+- 2. 升级时间控制 v3.2.3，增加IP,MAC列表选择功能。
+- 3. 彻底修复源地址更新提示错误的问题，改用immortalwrt软件源。
+- 4. 升级网速测试v5.1.1，增加8个网站的在线宽带测速。
+- 5. 升级ddns-go v6.15.0 ，修复LUCI无法获取ipv6的前缀问题，日志改为最新日志排在最前面。
+- 6. 升级lucky v2.26.1 ，修复LUCI汉化不全，设置控制台默认操作台。
+- 7. 修复OPENCLASH内核需要手动下载的问题。
+- 8. 根据TG好伙伴的强烈提议，增加固件的ISO安装包，虚拟机U盘引导安装的福音。
+- 9. 所有版本，删除概览页推广群链接和标志。
+
+- 【注意】根据虚拟机和实际情况出发，WAN口绑定方案：单网口时eth0为LAN口，多网口最后一个口为WAN其余是LAN口
+- 【问题】有问题反馈，请提供截图、详细日志和可重现操作流程，否则一率不回复不处理
+- 【公告】欢迎定制各种特殊驱动固件和特殊需要插件以及各种路由器固件。
+- 
 ## 2026年1月1日 最新更新【SIRPDBOY独家优化】
 - 【小技巧】二步实现扩容升级固件：先用【分区扩容】扩容mnt分区（用于存储解压固件要大于4G）->【在线升级】扩展DD模式 刷机即可。【如果还不会来TG群申请指导】
 

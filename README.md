@@ -5,7 +5,7 @@
 - [https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6](https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6)
 
 - youtube【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
-- [https://youtu.be/CG3J9NpTHc0?si=9H_8VoybYtAudMfd](https://youtu.be/CG3J9NpTHc0?si=9H_8VoybYtAudMfd)
+- [https://www.youtube.com/watch?v=rkvHv_UccsU](https://www.youtube.com/watch?v=rkvHv_UccsU)
 
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 

@@ -264,10 +264,11 @@ jobs:
 
     - name: Git push assets to "ver" branch
       run: |
+          cd $GITHUB_WORKSPACE
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan ver || git checkout ver || true
-          git add $GITHUB_WORKSPACE/ezopenwrt_version
+          git add ezopenwrt_version
           git commit -m "${{ env.DATA }}" || echo "No changes to commit"
           git push -f https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git ver
           

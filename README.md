@@ -1,5 +1,16 @@
 ## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
+
+<p align="center">
+<a href="https://openwrt.org"><img alt="OpenWrt" src="https://img.shields.io/badge/OpenWrt-%E2%89%A519.07-ff0000?logo=openwrt&logoColor=white"></a>
+<a href="https://www.google.com/chrome/"><img alt="Chrome" src="https://img.shields.io/badge/Chrome-%E2%89%A5111-4285F3?logo=googlechrome&logoColor=white"></a>
+<a href="https://www.apple.com/safari/"><img alt="Safari" src="https://img.shields.io/badge/Safari-%E2%89%A516.4-000000?logo=safari&logoColor=white"></a>
+<a href="https://www.mozilla.org/firefox/"><img alt="Firefox" src="https://img.shields.io/badge/Firefox-%E2%89%A5128-FF7138?logo=firefoxbrowser&logoColor=white"></a>
+<a target="_blank" href="https://github.com/sirpdboy/openwrt/releases"> <img alt="GitHub release" src="https://img.shields.io/github/v/release/sirpdboy/openwrt"></a>
+<a href="https://github.com/sirpdboy/openwrt/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/sirpdboy/openwrt/total"></a>
+</p>
+
+
 ### 2026软路由刷机调试扩容升级教程：
 - bilibili【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
 - [https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6](https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6)

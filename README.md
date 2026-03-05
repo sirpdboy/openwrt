@@ -7,7 +7,7 @@
 <a href="https://www.apple.com/safari/"><img alt="Safari" src="https://img.shields.io/badge/Safari-%E2%89%A516.4-000000?logo=safari&logoColor=white"></a>
 <a href="https://www.mozilla.org/firefox/"><img alt="Firefox" src="https://img.shields.io/badge/Firefox-%E2%89%A5128-FF7138?logo=firefoxbrowser&logoColor=white"></a>
 <a target="_blank" href="https://github.com/sirpdboy/openwrt/releases"> <img alt="GitHub release" src="https://img.shields.io/github/v/release/sirpdboy/openwrt"></a>
-<a href="https://github.com/sirpdboy/openwrt/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/sirpdboy/openwrt/total"></a>
+<a href="https://github.com/sirpdboy/openwrt/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/sirpdboy/openwrt/total?cacheSeconds=1"></a>
 </p>
 
 

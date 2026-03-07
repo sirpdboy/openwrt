@@ -1,7 +1,7 @@
 ## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
 ## 【关于 sirpdboy/luci-app-netspeedtest 开源仓库事件的通告】
-
+<div>
   - 因 luci-app-netspeedtest 仓库近期更新时，在 JS 版本测速插件中误用了部分文件，导致被指侵权，目前原仓库暂时无法访问。
   - 应好伙伴们的要求，现已开放最新的临时测速源码地址：👉 https://github.com/sirpdboy/netspeedtest
   - 本插件最早由我于 2019 年开发并发布，是【OPENWRT 平台上最早】系统性研究和整合网络测速功能的人，并一直持续更新维护至今。
@@ -20,7 +20,7 @@
 
   - sirpdboy
   - 2026年3月7日
-
+</div>
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 
 ### [sirpdboy  X86固件分为：大全版，精典版，旁路由版，极致版，养老版等，其它如R2S、N1、小米硬路由机器等都是精典版，需要更多服务请定制！](https://github.com/sirpdboy/openwrt18.06/)

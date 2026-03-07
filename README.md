@@ -1,6 +1,6 @@
 ## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
-【关于 luci-app-netspeedtest事件的通告】
+## 【关于 sirpdboy/luci-app-netspeedtest 开源仓库事件的通告】
 
   - 因 luci-app-netspeedtest 仓库近期更新时，在 JS 版本测速插件中误用了部分文件，导致被指侵权，目前原仓库暂时无法访问。
   - 应好伙伴们的要求，现已开放最新的临时测速源码地址：👉 https://github.com/sirpdboy/netspeedtest

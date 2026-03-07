@@ -1,12 +1,25 @@
 ## 访问数：![hello](https://views.whatilearened.today/views/github/sirpdboy/deplives.svg)[![](https://img.shields.io/badge/TG群-点击加入-FFFFFF.svg)](https://t.me/joinchat/AAAAAEpRF88NfOK5vBXGBQ)
 
+【关于 luci-app-netspeedtest事件的通告】
 
-### 2026软路由刷机调试扩容升级教程：
-- bilibili【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
-- [https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6](https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6)
+因 luci-app-netspeedtest 仓库近期更新时，在 JS 版本测速插件中误用了部分文件，导致被指侵权，目前原仓库暂时无法访问。
+应好伙伴们的要求，现已开放最新的临时测速源码地址：👉 https://github.com/sirpdboy/netspeedtest
+本插件最早由我于 2019 年开发并发布，是【OPENWRT 平台上最早】系统性研究和整合网络测速功能的人，并一直持续更新维护至今。
+这次事件也波及到了多个其他仓库，对此我深表遗憾。
+我个人的 GitHub 仓库中，有十几个开源的插件，每一个都是经过无数个日夜、一点点熬出来的，熬出了一身病，也熬出了一份执着。
+开发过程中，代码间相互参考、借鉴他人经验，本是开源社区的常态，也是开源精神的体现：互相学习，共同进步。
+关于 luci-app-netspeedtest 仓库，我们在说明中已标明部分代码的参考来源。
+唯一的问题是，之前在维护过程中，有一个 License 文件确实因操作失误填错了，我当时是在网页端直接操作，处理上可能不够严谨，恳请大家理解。
+即便是被指“抄袭”的 speedtest.js 文件，前段时间我们也已补充了参考来源，该文件也绝不是简单复制粘贴而来的。
+希望大家能尊重事实，理性看待问题，文明交流，少一点戾气，多一份理解。
+我们都是开源社区的搬运工，做点东西不容易，没必要动辄上纲上线。当然本人也欢迎大家批评与监督！如果有侵犯到您的代码，请告之我们，我们第一时间改正！
 
-- youtube【史上最简单！sirpdboy的openwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】 
-- [https://www.youtube.com/watch?v=rkvHv_UccsU](https://www.youtube.com/watch?v=rkvHv_UccsU)
+【最近感觉】：风雨飘摇，且用且珍惜吧。 
+
+最后补一下：如果您认为本人插件还行，还值得继续更新的话，请给本人仓库中的插件一个免费的小星星！这是对本人付出的有力肯定与支持！！谢谢大家 ！！
+
+sirpdboy
+2026年3月7日
 
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 
@@ -35,7 +48,8 @@
 ### 恩山链接2020年 ：https://www.right.com.cn/forum/thread-4013563-1-1.html
 ### 恩山链接2021年 ：https://www.right.com.cn/forum/thread-4053752-1-1.html
 ### 恩山链接2022年 ：https://www.right.com.cn/forum/thread-8250453-1-1.html
-### 恩山链接2025年（最新） ： https://www.right.com.cn/forum/thread-8416671-1-1.html
+### 恩山链接2025年 ： https://www.right.com.cn/forum/thread-8416671-1-1.html
+### 恩山链接2026年（最新） ：https://www.right.com.cn/forum/thread-8465304-1-1.html
 
 ## 免责声明
 
@@ -96,6 +110,27 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
+## 2026年3月7日 最新更新【SIRPDBOY独家优化】
+- 【史上最强主题！2026最新kucat酷猫主题继自定义颜色、自定义背景图和自定义快捷键后又出新功能可以【自定义菜单】啦！酷猫主题开创自定义主题新概念！快来尝鲜吧！】
+- 使用源码与教程： https://github.com/sirpdboy/luci-theme-kucat
+
+- 【史上最简单！2026最新ezopenwrt固件一键搞定软路由刷机、调试、分区扩容和扩容在线升级，彻底告别麻烦！】：
+- bilibili: https://www.bilibili.com/video/BV1BYcEziEn6/?share_source=copy_web&vd_source=ee16245e38db822da2b2a406bfe7c2b6
+- youtube:  https://www.youtube.com/watch?v=rkvHv_UccsU
+
+- 在上一版本基础上，新更新内容如下：
+
+- 1. 升级ddns-go v1.6.6版，修复默认重置用户名admin密码admin12345,修复上一版本无法启动问题。
+- 2. 升级【管控】中【看门狗】插件，修复黑名单列表显示不正常和停用插件黑名单列表还有效问题！
+- 3. 升级【任务设置】JS版，更详细的设置说明，可设置开机启动任务和定时执行任务，带10多个常用功能！
+- 4. 升级【kucat主题】v3.3.1版，优化网络接口显示和动态滑动块显示，更方便美观！
+- 5. 升级【设置向导】插件，优化新版防火墙和IPV6设置，感谢群友Andrew Johnson和 时空 未来 协助及提供测试结果。
+- 6. 升级【网络测速】v5.1.2插件，新增speedtest宽带测速的二种测速方案，测速更方便！
+
+- 【注意】根据虚拟机和实际情况出发，WAN口绑定方案：单网口时eth0为LAN口，多网口最后一个口为WAN其余是LAN口
+- 【问题】有问题反馈，请提供截图、详细日志和可重现操作流程，否则一率不回复不处理
+- 【公告】欢迎定制各种特殊驱动固件和特殊需要插件以及各种路由器固件。
+
 
 ## 2026年3月1日 最新更新【SIRPDBOY独家优化】
 - 【史上最强主题！2026最新kucat酷猫主题继自定义颜色、自定义背景图和自定义快捷键后又出新功能可以【自定义菜单】啦！酷猫主题开创自定义主题新概念！快来尝鲜吧！】
@@ -115,7 +150,6 @@
 - 【注意】根据虚拟机和实际情况出发，WAN口绑定方案：单网口时eth0为LAN口，多网口最后一个口为WAN其余是LAN口
 - 【问题】有问题反馈，请提供截图、详细日志和可重现操作流程，否则一率不回复不处理
 - 【公告】欢迎定制各种特殊驱动固件和特殊需要插件以及各种路由器固件。
-
 
 ## 2026年2月14日 最新更新【SIRPDBOY独家优化】
 - 【小技巧】二步实现扩容升级固件：先用【分区扩容】扩容mnt分区（用于存储解压固件要大于4G）->【在线升级】扩展DD模式 刷机即可。【如果还不会来TG群申请指导】
@@ -195,11 +229,11 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
-- 【在线更新】VIP极致SUPER版下载地址：[https://github.com/sirpdboy/openwrt/releases](https://github.com/sirpdboy/openwrt/releases)
+- 【在线更新】VIP-SUPER极致版免费下载地址：[https://github.com/sirpdboy/openwrt/releases](https://github.com/sirpdboy/openwrt/releases)
   
-- 【123网盘工具下载】： https://www.123865.com/s/dS5A-XSKqd?pwd=SeI8#
+- 【123网盘工具下载】： [https://www.123865.com/s/dS5A-XSKqd?pwd=SeI8#](https://www.123865.com/s/dS5A-XSKqd?pwd=SeI8#)
 
-- 【123网盘固件下载】主下载: https://www.123865.com/s/dS5A-PSKqd?pwd=HGX8#
+- 【123网盘固件下载】主下载: [https://www.123865.com/s/dS5A-youqd](https://www.123865.com/s/dS5A-youqd)
 
 -  Telegram聊天群组: [https://t.me/joinchat/RV6mxIxZJVDByibQ](https://t.me/joinchat/RV6mxIxZJVDByibQ)
 
@@ -249,7 +283,10 @@
 ## 使用与授权相关说明
  
 - 本人开源的所有源码，任何引用需注明本处出处，如需修改二次发布必告之本人，未经许可不得做于任何商用用途。
+  
+## 【关于固件BUG说明】
 
+固件内核和依赖不断更新升级，编译也是不断纠错和进步之中，新固件会有新插件、也会加入新功能、也许会有新问题，但总之要相信，代码的升级，总是解决前面的问题才会更新，一切都是在朝前进，有问题慢慢来，别急，总有解决方法 。也许本人不是最会处理BUG的编译者，也不是能解决所有BUG的大神，但肯定是最用心来编译固件的编译者。因为每一次更新编译，本人都会不断尝试与改进，加入新功能解决旧问题，方便使用和好用的固件一直是本人编译固件的崇旨。在感谢所有支持本人的好伙伴们！只是本人就不明白为什么 在恩山论坛上有人故意抹黑说：加入VIP群说有BUG就被踢了，此事纯属造谣，在VIP群的所有发电爱好者都可以为本人做证，到目前VIP群还没有踢过人，群众的眼睛是雪亮的，固件好不好用，用不用心编译大家也可以从我发布的固件中体会出来。清者自清！本人问心无愧！！
 
 # My other project
 
@@ -265,10 +302,10 @@
 - 定时限速: https://github.com/sirpdboy/luci-app-eqosplus
 - 系统高级设置 : https://github.com/sirpdboy/luci-app-advanced
 - ddns-go动态域名: https://github.com/sirpdboy/luci-app-ddns-go
-- 进阶设置（系统高级设置+主题设置kucat/agron/opentopd）: https://github.com/sirpdboy/luci-app-advancedplus
+- 进阶设置: https://github.com/sirpdboy/luci-app-advancedplus
 - 网络设置向导: https://github.com/sirpdboy/luci-app-netwizard
 - 一键分区扩容: https://github.com/sirpdboy/luci-app-partexp
-- lukcy大吉: https://github.com/sirpdboy/luci-app-lukcy
+- lukcy: https://github.com/sirpdboy/luci-app-lukcy
 
 
 ## 捐助

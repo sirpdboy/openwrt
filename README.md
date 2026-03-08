@@ -16,6 +16,8 @@
   - 希望大家能尊重事实，理性看待问题，文明交流，少一点戾气，多一份理解。
   - 我们都是开源社区的搬运工，做点东西不容易，没必要动辄上纲上线。当然本人也欢迎大家批评与监督！如果有侵犯到您的代码，请告之我们，我们第一时间改正！
 
+  - 附：恩山2021年【网络测速】开源贴：https://www.right.com.cn/forum/thread-5970397-1-1.html
+
   - 【最近感觉】：风雨飘摇，且用且珍惜吧。 
 
   - 最后补一下：如果您认为本人插件还行，还值得继续更新的话，请给本人仓库中的插件一个免费的小星星！这是对本人付出的有力肯定与支持！！谢谢大家 ！！
@@ -264,13 +266,6 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图飞了" title="返回顶部" align="right"/>
 </a>
 
-![xm3](app/vip大全版插件图.jpg)
-![xm3](app/VIP精简版插件图.jpg)
-![xm3](app/VIP旁路由.jpg)
-![xm3](app/IPV6大全版插件图.jpg)
-![xm3](app/IPV6精简版插件图.jpg)
-![xm3](app/IPV6极致版.jpg)
-
 ## 源码来源
 
 <a href="#readme">
@@ -282,6 +277,7 @@
 ### https://github.com/sirpdboy/openwrt-package (sirpdboy插件源码仓库）
 ### https://github.com/immortalwrt/immortalwrt
 ### https://github.com/istoreos/istoreos
+### https://github.com/openwrt/openwrt
 
 
 ## 使用与授权相关说明

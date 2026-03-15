@@ -10,8 +10,8 @@
 自即日起，固件将不再通过OpenWrt仓库进行在线编译。此举实属无奈，望各位理解。
 
 二、关于GPL协议问题  
-关于GNU General Public License v2.0（GPLv2）相关事宜，已无需进一步讨论。本人代码库中90%以上的代码均已开源，严格履行了开源协议的要求。
-如对剩余代码有合理需求，请通过正规渠道理性沟通。若继续借此进行无端指责与骚扰，则是对开源精神的误解，绝非真正的开源社区所为。
+关于GNU General Public License v2.0（GPLv2）相关事宜，已无需进一步讨论。本人开发的代码90%以上的代码均已开源，这些自研的插件开源不开源还是我自己说了算。
+如对我开发的插件有合理需求，请通过正规渠道理性沟通。若继续借此进行无端指责与骚扰，则是对开源精神的误解，绝非真正的开源社区所为。
 
 三、关于骚扰问题的态度  
 若本人开源代码确实给您造成困扰，请直接明言。若普遍认为不开源更好，本人亦可选择不再开源，免生纷扰。
@@ -287,7 +287,7 @@ sirpdboy
 # My other project
 
 - 路由安全看门狗 ：https://github.com/sirpdboy/luci-app-watchdog
-- 网络速度测试 ：https://github.com/sirpdboy/luci-app-netspeedtest
+- 网络速度测试 ：https://github.com/sirpdboy/netspeedtest
 - 计划任务插件（原定时设置） : https://github.com/sirpdboy/luci-app-taskplan
 - 关机功能插件 : https://github.com/sirpdboy/luci-app-poweroffdevice
 - opentopd主题 : https://github.com/sirpdboy/luci-theme-opentopd

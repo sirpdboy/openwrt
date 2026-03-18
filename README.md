@@ -1,108 +1,40 @@
-![OpenWrt logo](include/logo.png)
+### 【关于近期sirpdboy固件3.16事件及后续安排的说明】
 
-OpenWrt Project is a Linux operating system targeting embedded devices. Instead
-of trying to create a single, static firmware, OpenWrt provides a fully
-writable filesystem with package management. This frees you from the
-application selection and configuration provided by the vendor and allows you
-to customize the device through the use of packages to suit any application.
-For developers, OpenWrt is the framework to build an application without having
-to build a complete firmware around it; for users this means the ability for
-full customization, to use the device in ways never envisioned.
+<div>
+致各位朋友与支持者：
 
-Sunshine!
+   大家好，我是sirpdboy。
+   
+   最近一段时间，我几乎被耗光了所有精力与时间，烦不胜烦，被折腾得身心俱疲，导致插件和固件的开发更新都停滞了。
+   
+   事情的起因，是网络测速插件中误用文件引发了对所谓“知识产权”的维权，随之而来的是各种信息轰炸与人身攻击。更令人不堪其扰的是，一群始终不敢公布自己真实身份信息、打着“国外法务顾问”旗号的人，成天用各种知识产权相关的恐吓信息进行骚扰与诋毁。他们披着“维护GPL协议”的外衣，行的却是见不得光的勾当（私下的就是聊着怎么整人，有聊天截图）。
+   
+   面对这种无休止的围攻，在本人看来并不是开不开源的问题，本身我的代码大多数都已经开源，烦的是词语间的语言暴力，这是要将一个人整死的节奏！比如：弱智、脑残、智力低下、没脸没皮、没本事、装死等等各种鄙视用词，污名化说某人这不行，那不会，甚至不讲实事夸大的说本人仓库有三次MDCA知识产权事件。我怎么不知道有三次？请你给我列一下是哪三次？因此，我想问一下： ImmortalWrt团队的“国外法务顾问”们，这就是你们所谓的开源精神？就是在用所谓的法律在维护RPL协议行使的法律手段吗？甚至我群里人发言的人你们也要去调查，人肉搜索？吓得朋友马上去注销帐号了。真是让人恐怖的能力啊！
+   
+   为了能让自己喘口气，也为了给一直支持我的朋友一个交代，我不得不做出以下决定：
 
-## Download
+1.即日起，不再使用OpenWrt/ImmortalWrt源码编译固件,后续固件会云服务器编译（如果说有后续的话）！
 
-Built firmware images are available for many architectures and come with a
-package selection to be used as WiFi home router. To quickly find a factory
-image usable to migrate from a vendor stock firmware to OpenWrt, try the
-*Firmware Selector*.
+2.停止个人在GitHub上sirpdboy仓库所有的开源代码更新与维护。
 
-* [OpenWrt Firmware Selector](https://firmware-selector.openwrt.org/)
+3.删除原 sirpdboy/openwrt 仓库中的所有数据，停止固件的在线更新服务。
 
-If your device is supported, please follow the **Info** link to see install
-instructions or consult the support resources listed below.
+4.删除此前发布的所有相关教程及关联账号。
 
-## 
+5.这种污名与诋毁行为，请ImmortalWrt团队的“国外法务顾问”们给本人一个说法。（不要不承认，我邮箱中全都有存档）
 
-An advanced user may require additional or specific package. (Toolchain, SDK, ...) For everything else than simple firmware download, try the wiki download page:
+做出这些决定，实属无奈。感谢大家一路以来的陪伴与理解。
 
-* [OpenWrt Wiki Download](https://openwrt.org/downloads)
+*（补充说明：这里OpenWrt/ImmortalWrt是指在OpenWrt下面开源的ImmortalWrt仓库源码）
 
-## Development
+sirpdboy
 
-To build your own firmware you need a GNU/Linux, BSD or macOS system (case
-sensitive filesystem required). Cygwin is unsupported because of the lack of a
-case sensitive file system.
+2026年3月18日
 
-### Requirements
+可查的指责链接：https://github.com/openwrt/packages/pull/28727
 
-You need the following tools to compile OpenWrt, the package names vary between
-distributions. A complete list with distribution specific packages is found in
-the [Build System Setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem)
-documentation.
+</div>
 
-```
-binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
-make4.1+ perl python3.7+ rsync subversion unzip which
-```
 
-### Quickstart
 
-1. Run `./scripts/feeds update -a` to obtain all the latest package definitions
-   defined in feeds.conf / feeds.conf.default
 
-2. Run `./scripts/feeds install -a` to install symlinks for all obtained
-   packages into package/feeds/
-
-3. Run `make menuconfig` to select your preferred configuration for the
-   toolchain, target system & firmware packages.
-
-4. Run `make` to build your firmware. This will download all sources, build the
-   cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen
-   applications for your target system.
-
-### Related Repositories
-
-The main repository uses multiple sub-repositories to manage packages of
-different categories. All packages are installed via the OpenWrt package
-manager called `opkg`. If you're looking to develop the web interface or port
-packages to OpenWrt, please find the fitting repository below.
-
-* [LuCI Web Interface](https://github.com/openwrt/luci): Modern and modular
-  interface to control the device via a web browser.
-
-* [OpenWrt Packages](https://github.com/openwrt/packages): Community repository
-  of ported packages.
-
-* [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically
-  focused on (mesh) routing.
-
-* [OpenWrt Video](https://github.com/openwrt/video): Packages specifically
-  focused on display servers and clients (Xorg and Wayland).
-
-## Support Information
-
-For a list of supported devices see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices)
-
-### Documentation
-
-* [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
-* [User Guide](https://openwrt.org/docs/guide-user/start)
-* [Developer Documentation](https://openwrt.org/docs/guide-developer/start)
-* [Technical Reference](https://openwrt.org/docs/techref/start)
-
-### Support Community
-
-* [Forum](https://forum.openwrt.org): For usage, projects, discussions and hardware advise.
-* [Support Chat](https://webchat.oftc.net/#openwrt): Channel `#openwrt` on **oftc.net**.
-
-### Developer Community
-
-* [Bug Reports](https://bugs.openwrt.org): Report bugs in OpenWrt
-* [Dev Mailing List](https://lists.openwrt.org/mailman/listinfo/openwrt-devel): Send patches
-* [Dev Chat](https://webchat.oftc.net/#openwrt-devel): Channel `#openwrt-devel` on **oftc.net**.
-
-## License
-
-OpenWrt is licensed under GPL-2.0

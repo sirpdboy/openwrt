@@ -1,7 +1,7 @@
 ### 【关于固件下载事项说明】：
 
 # 因近段时间被人恶意针对与攻击，所以停了之前一切固件下载与分享。 目前正在适配官方原版系统，新固件需要一点时间，请大家耐心等待！！ 
-# 如何有任何疑问欢迎在恩山论坛留言：
+# 如有任何疑问欢迎在恩山论坛留言：
 
 - 2020年恩山链接：[https://www.right.com.cn/forum/thread-4053752-1-1.html](https://www.right.com.cn/forum/thread-4053752-1-1.html)
 - 2021年恩山链接：[https://www.right.com.cn/forum/thread-4387071-1-1.html](https://www.right.com.cn/forum/thread-4387071-1-1.html)

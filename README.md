@@ -11,6 +11,8 @@
 sirpdboy
 通告时间 ：2026年4月28日
 
+## 前段时间用了 10000ge10000/luci-app-openclaw 的这个适配过TG，请大家注意！！ 小心：OpenClaw 和 10000ge10000 代码泄露！！
+
 <img width="596" height="841" alt="image" src="https://github.com/user-attachments/assets/d30c8ad3-8e1d-474b-92dd-1efd4aa0de57" />
 
 

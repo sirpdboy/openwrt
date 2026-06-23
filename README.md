@@ -11,9 +11,10 @@ sirpdboy
 【TG群号】：https://t.me/+RV6mxIxZJVDByibQ  
 【订阅号】：https://t.me/+SlEXzw184rm8FcYF
 
-# 【推荐一本书】：《AI智能助手应用实战——以DeepSeek为核心的多AI联动工作流》
 
 ![screenshots](./doc/封面.jpg)
+
+### 【推荐一本书】：《AI智能助手应用实战——以DeepSeek为核心的多AI联动工作流》
 
 AI不会取代你，但会用AI的人一定会取代不用AI的人。
 
